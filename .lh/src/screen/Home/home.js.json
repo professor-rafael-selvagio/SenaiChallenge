@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/screen/Home/home.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1714007448083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714007457300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Text>Tela do Home</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007623136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            \r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007629571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Text\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007637709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Text></Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007644968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Text>Game</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007650235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,63 +2,10 @@\n \r\n export default function Home(){\r\n     return(\r\n         <View style={styles.container}>\r\n-            <Text>Game</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Text></Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Text\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n             \r\n+            <Text>GameDev</Text>\r\n         </View>\r\n     )\r\n \r\n }\r\n@@ -68,41 +15,5 @@\n         flex: 1,\r\n         alignItems: 'center',\r\n         justifyContent: 'center',\r\n     },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Text>Tela do Home</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Card(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Text>Tela do card</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007658494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <I\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007664192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007670318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007781409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export default function Home(){\r\n     return(\r\n         <View style={styles.container}>\r\n-            <Image/>\r\n+            <Image />\r\n             <Text>GameDev</Text>\r\n         </View>\r\n     )\r\n \r\n@@ -15,62 +15,5 @@\n         flex: 1,\r\n         alignItems: 'center',\r\n         justifyContent: 'center',\r\n     },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Image/>\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <I\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            \r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007788682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image />\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007794813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={rew}/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714007802750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={}/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008086928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export default function Home(){\r\n     return(\r\n         <View style={styles.container}>\r\n-            <Image source={}/>\r\n+            <Image source={require}/>\r\n             <Text>GameDev</Text>\r\n         </View>\r\n     )\r\n \r\n@@ -15,62 +15,5 @@\n         flex: 1,\r\n         alignItems: 'center',\r\n         justifyContent: 'center',\r\n     },\r\n-})\n-import {View, Text, StyleSheet, Image} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Image source={rew}/>\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet, Image} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Image />\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n-})\n-import {View, Text, StyleSheet, Image} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Image />\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008092787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={require('.')}/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008098180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export default function Home(){\r\n     return(\r\n         <View style={styles.container}>\r\n-            <Image source={require('.')}/>\r\n+            <Image source={require('../')}/>\r\n             <Text>GameDev</Text>\r\n         </View>\r\n     )\r\n \r\n@@ -15,24 +15,5 @@\n         flex: 1,\r\n         alignItems: 'center',\r\n         justifyContent: 'center',\r\n     },\r\n-})\n-import {View, Text, StyleSheet, Image} from 'react-native'\r\n-\r\n-export default function Home(){\r\n-    return(\r\n-        <View style={styles.container}>\r\n-            <Image source={require}/>\r\n-            <Text>GameDev</Text>\r\n-        </View>\r\n-    )\r\n-\r\n-}\r\n-\r\n-const styles = StyleSheet.create({\r\n-    container:{\r\n-        flex: 1,\r\n-        alignItems: 'center',\r\n-        justifyContent: 'center',\r\n-    },\r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008105281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={require('../../image')}/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008118309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={require('../../image/logoSenai')}/>\r\n+            <Text>GameDev</Text>\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714008132002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     return(\r\n         <View style={styles.container}>\r\n             <Image source={require('../../image/logoSenai.png')}/>\r\n             <Text>GameDev</Text>\r\n+            \r\n         </View>\r\n     )\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1714008141093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+import {View, Text, StyleSheet, Image} from 'react-native'\r\n+\r\n+export default function Home(){\r\n+    return(\r\n+        <View style={styles.container}>\r\n+            <Image source={require('../../image/logoSenai.png')}/>\r\n+            <Text>GameDev</Text>\r\n+            <Touch\r\n+        </View>\r\n+    )\r\n+\r\n+}\r\n+\r\n+const styles = StyleSheet.create({\r\n+    container:{\r\n+        flex: 1,\r\n+        alignItems: 'center',\r\n+        justifyContent: 'center',\r\n+    },\r\n+})\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1714007448083,
+            "name": "Commit-0",
+            "content": "import {View, Text, StyleSheet} from 'react-native'\r\n\r\nexport default function Card(){\r\n    return(\r\n        <View style={styles.container}>\r\n            <Text>Tela do card</Text>\r\n        </View>\r\n    )\r\n\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n    container:{\r\n        flex: 1,\r\n        alignItems: 'center',\r\n        justifyContent: 'center',\r\n    },\r\n})"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "sourceFile": "src/service/question.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1714012920233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714012934819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n {\r\n     \"usuarios\": [\r\n       {\r\n         \"id\": 1,\r\n-        \"nome\": \"João\",\r\n+        \"tema\": \"João\",\r\n         \"email\": \"joao@example.com\",\r\n         \"idade\": 30\r\n       },\r\n       {\r\n"
+                },
+                {
+                    "date": 1714012940135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     \"usuarios\": [\r\n       {\r\n         \"id\": 1,\r\n         \"tema\": \"João\",\r\n-        \"email\": \"joao@example.com\",\r\n+        \"\": \"joao@example.com\",\r\n         \"idade\": 30\r\n       },\r\n       {\r\n         \"id\": 2,\r\n"
+                },
+                {
+                    "date": 1714012952232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"João\",\r\n+        \"pergunta\": \"joao@example.com\",\r\n+        \"resposta\": 30\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"nome\": \"Maria\",\r\n+        \"email\": \"maria@example.com\",\r\n+        \"idade\": 25\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"nome\": \"Pedro\",\r\n+        \"email\": \"pedro@example.com\",\r\n+        \"idade\": 35\r\n+      }\r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714012958705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"João\",\r\n+        \"pergunta\": \"joao@example.com\",\r\n+        \"resposta\": 30\r\n+      },\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714012966788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"   \",\r\n+        \"pergunta\": \"joao@example.com\",\r\n+        \"resposta\": 30\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714012974825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"joao@example.com\",\r\n+        \"resposta\": 30\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714012996910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     \"usuarios\": [\r\n       {\r\n         \"id\": 1,\r\n         \"tema\": \"MYSQL\",\r\n-        \"pergunta\": \"joao@example.com\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n         \"resposta\": 30\r\n       }\r\n      \r\n     ]\r\n"
+                },
+                {
+                    "date": 1714013005495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013010903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": 'FALSO'\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013016735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,104 +3,10 @@\n       {\r\n         \"id\": 1,\r\n         \"tema\": \"MYSQL\",\r\n         \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n-        \"resposta\": 'FALSO'\r\n+        \"resposta\": ''\r\n       }\r\n      \r\n     ]\r\n   }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"MYSQL\",\r\n-        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n-        \"resposta\": \r\n-      }\r\n-     \r\n-    ]\r\n-  }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"MYSQL\",\r\n-        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n-        \"resposta\": 30\r\n-      }\r\n-     \r\n-    ]\r\n-  }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"   \",\r\n-        \"pergunta\": \"joao@example.com\",\r\n-        \"resposta\": 30\r\n-      }\r\n-     \r\n-    ]\r\n-  }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"João\",\r\n-        \"pergunta\": \"joao@example.com\",\r\n-        \"resposta\": 30\r\n-      },\r\n-     \r\n-    ]\r\n-  }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"João\",\r\n-        \"pergunta\": \"joao@example.com\",\r\n-        \"resposta\": 30\r\n-      },\r\n-      {\r\n-        \"id\": 2,\r\n-        \"nome\": \"Maria\",\r\n-        \"email\": \"maria@example.com\",\r\n-        \"idade\": 25\r\n-      },\r\n-      {\r\n-        \"id\": 3,\r\n-        \"nome\": \"Pedro\",\r\n-        \"email\": \"pedro@example.com\",\r\n-        \"idade\": 35\r\n-      }\r\n-    ]\r\n-  }\r\n-  \n-{\r\n-    \"usuarios\": [\r\n-      {\r\n-        \"id\": 1,\r\n-        \"tema\": \"João\",\r\n-        \"\": \"joao@example.com\",\r\n-        \"idade\": 30\r\n-      },\r\n-      {\r\n-        \"id\": 2,\r\n-        \"nome\": \"Maria\",\r\n-        \"email\": \"maria@example.com\",\r\n-        \"idade\": 25\r\n-      },\r\n-      {\r\n-        \"id\": 3,\r\n-        \"nome\": \"Pedro\",\r\n-        \"email\": \"pedro@example.com\",\r\n-        \"idade\": 35\r\n-      }\r\n-    ]\r\n-  }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013024561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"usuarios\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013032278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-    \"usuarios\": [\r\n+    \"\": [\r\n       {\r\n         \"id\": 1,\r\n         \"tema\": \"MYSQL\",\r\n         \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n"
+                },
+                {
+                    "date": 1714013041066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013046490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013053352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,20 @@\n         \"tema\": \"MYSQL\",\r\n         \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n         \"resposta\": \"FALSO\"\r\n       },\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n      \r\n     ]\r\n   }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013059767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013100112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013106181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013111722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"CLASSES\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013117718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"CLASSES\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013125030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"CLASSES\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013139006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"CLASSES\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"O que é uma estrutura que não pode ser instanciada diretamente e pode conter métodos abstratos em Java?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714013145727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+{\r\n+    \"question\": [\r\n+      {\r\n+        \"id\": 1,\r\n+        \"tema\": \"MYSQL\",\r\n+        \"pergunta\": \"O where define os campos a serem buscados. Verdadeiro ou falso?\",\r\n+        \"resposta\": \"FALSO\"\r\n+      },\r\n+      {\r\n+        \"id\": 2,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?\",\r\n+        \"resposta\": \"CLASSES\"\r\n+      },\r\n+      {\r\n+        \"id\": 3,\r\n+        \"tema\": \"FPOO\",\r\n+        \"pergunta\": \"O que é uma estrutura que não pode ser instanciada diretamente e pode conter métodos abstratos em Java?\",\r\n+        \"resposta\": \"CLASSE ABSTRATA\"\r\n+      }\r\n+     \r\n+    ]\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1714012920233,
+            "name": "Commit-0",
+            "content": "{\r\n    \"usuarios\": [\r\n      {\r\n        \"id\": 1,\r\n        \"nome\": \"João\",\r\n        \"email\": \"joao@example.com\",\r\n        \"idade\": 30\r\n      },\r\n      {\r\n        \"id\": 2,\r\n        \"nome\": \"Maria\",\r\n        \"email\": \"maria@example.com\",\r\n        \"idade\": 25\r\n      },\r\n      {\r\n        \"id\": 3,\r\n        \"nome\": \"Pedro\",\r\n        \"email\": \"pedro@example.com\",\r\n        \"idade\": 35\r\n      }\r\n    ]\r\n  }\r\n  "
+        }
+    ]
+}

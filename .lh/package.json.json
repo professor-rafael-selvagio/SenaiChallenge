@@ -1,0 +1,58 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1714014230212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714014248174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n+    \n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014268419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \n+    \"bac\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014273857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"bac\"\n+    \"backend\": \n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014288686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \n+    \"backend\": \"json-server\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014298514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server\"\n+    \"backend\": \"json-server --wat \"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014304675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server --wat \"\n+    \"backend\": \"json-server --watch \"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014316894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server --watch \"\n+    \"backend\": \"json-server --watch serv\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014323252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server --watch serv\"\n+    \"backend\": \"json-server --watch service\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014341141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server --watch service\"\n+    \"backend\": \"json-server --watch service/\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                },
+                {
+                    "date": 1714014346898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"start\": \"expo start\",\n     \"android\": \"expo start --android\",\n     \"ios\": \"expo start --ios\",\n     \"web\": \"expo start --web\",\n-    \"backend\": \"json-server --watch service/\"\n+    \"backend\": \"json-server --watch service/question\"\n   },\n   \"dependencies\": {\n     \"@react-navigation/native-stack\": \"^6.9.26\",\n     \"expo\": \"~50.0.14\",\n"
+                }
+            ],
+            "date": 1714014230212,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"gamedev\",\n  \"version\": \"1.0.0\",\n  \"main\": \"node_modules/expo/AppEntry.js\",\n  \"scripts\": {\n    \"start\": \"expo start\",\n    \"android\": \"expo start --android\",\n    \"ios\": \"expo start --ios\",\n    \"web\": \"expo start --web\",\n  },\n  \"dependencies\": {\n    \"@react-navigation/native-stack\": \"^6.9.26\",\n    \"expo\": \"~50.0.14\",\n    \"expo-status-bar\": \"~1.11.1\",\n    \"json-server\": \"^1.0.0-alpha.23\",\n    \"react\": \"18.2.0\",\n    \"react-native\": \"0.73.6\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.20.0\"\n  },\n  \"private\": true\n}\n"
+        }
+    ]
+}

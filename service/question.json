@@ -1,0 +1,286 @@
+{
+  "question": [
+    {
+      "id": 1,
+      "tema": "MYSQL",
+      "pergunta": "O where define os campos a serem buscados. Verdadeiro ou falso?",
+      "resposta": "FALSO"
+    },
+    {
+      "id": 2,
+      "tema": "FPOO",
+      "pergunta": "Que estrutura é utilizada em Java para definir as propriedades e comportamentos de objetos?",
+      "resposta": "CLASSES"
+    },
+    {
+      "id": 3,
+      "tema": "FPOO",
+      "pergunta": "O que é uma estrutura que não pode ser instanciada diretamente e pode conter métodos abstratos em Java?",
+      "resposta": "CLASSE ABSTRATA"
+    },
+    {
+      "id": 4,
+      "tema": "HTML",
+      "pergunta": "Qual tag HTML é usada para definir uma tabela?",
+      "resposta": "<TABLE>"
+    },
+    {
+      "id": 5,
+      "tema": "CSS",
+      "pergunta": "Como se faz para selecionar um elemento pelo id em CSS?",
+      "resposta": "#"
+    },
+    {
+      "id": 6,
+      "tema": "JavaScript",
+      "pergunta": "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
+      "resposta": "var"
+    },
+    {
+      "id": 7,
+      "tema": "Python",
+      "pergunta": "Qual é a função que é usada para receber a entrada do usuário em Python?",
+      "resposta": "input()"
+    },
+    {
+      "id": 8,
+      "tema": "SQL",
+      "pergunta": "Qual é a linguagem de consulta padrão para bancos de dados relacionais?",
+      "resposta": "SQL"
+    },
+    {
+      "id": 9,
+      "tema": "Redes",
+      "pergunta": "O que significa LAN?",
+      "resposta": "Local Area Network"
+    },
+    {
+      "id": 10,
+      "tema": "Java",
+      "pergunta": "O que é uma interface em Java?",
+      "resposta": "Uma coleção de métodos abstratos"
+    },
+    {
+      "id": 11,
+      "tema": "HTML",
+      "pergunta": "Qual é o elemento raiz de um documento HTML?",
+      "resposta": "<html>"
+    },
+    {
+      "id": 12,
+      "tema": "CSS",
+      "pergunta": "Como se faz para selecionar todos os elementos de um tipo em CSS?",
+      "resposta": "Usando o nome do elemento"
+    },
+    {
+      "id": 13,
+      "tema": "JavaScript",
+      "pergunta": "Qual é o operador de igualdade estrita em JavaScript?",
+      "resposta": "==="
+    },
+    {
+      "id": 14,
+      "tema": "Python",
+      "pergunta": "Qual é a estrutura de controle usada para tomar decisões em Python?",
+      "resposta": "if"
+    },
+    {
+      "id": 15,
+      "tema": "SQL",
+      "pergunta": "Qual é a cláusula usada para filtrar resultados em uma consulta SQL?",
+      "resposta": "WHERE"
+    },
+    {
+      "id": 16,
+      "tema": "Redes",
+      "pergunta": "O que é um endereço IP?",
+      "resposta": "Identificador numérico atribuído a cada dispositivo em uma rede"
+    },
+    {
+      "id": 17,
+      "tema": "Java",
+      "pergunta": "Qual é o principal objetivo da herança em Java?",
+      "resposta": "Reutilização de código e facilitação da criação de hierarquias"
+    },
+    {
+      "id": 18,
+      "tema": "HTML",
+      "pergunta": "Qual é o elemento usado para criar um link em HTML?",
+      "resposta": "<a>"
+    },
+    {
+      "id": 19,
+      "tema": "CSS",
+      "pergunta": "O que é um seletor em CSS?",
+      "resposta": "Um padrão usado para selecionar os elementos a serem estilizados"
+    },
+    {
+      "id": 20,
+      "tema": "JavaScript",
+      "pergunta": "Qual é o método usado para adicionar um novo elemento HTML a uma página em JavaScript?",
+      "resposta": "appendChild()"
+    },
+    {
+      "id": 21,
+      "tema": "Python",
+      "pergunta": "Qual é a função usada para gerar um número inteiro aleatório em Python?",
+      "resposta": "random.randint()"
+    },
+    {
+      "id": 22,
+      "tema": "SQL",
+      "pergunta": "Qual é a instrução usada para excluir registros de uma tabela em SQL?",
+      "resposta": "DELETE"
+    },
+    {
+      "id": 23,
+      "tema": "Redes",
+      "pergunta": "O que é um roteador?",
+      "resposta": "Um dispositivo de rede que encaminha pacotes de dados entre redes"
+    },
+    {
+      "id": 24,
+      "tema": "Java",
+      "pergunta": "O que é polimorfismo em Java?",
+      "resposta": "Capacidade de objetos de diferentes classes serem tratados de forma uniforme"
+    },
+    {
+      "id": 25,
+      "tema": "HTML",
+      "pergunta": "Qual é a tag usada para criar uma lista não ordenada em HTML?",
+      "resposta": "<ul>"
+    },
+    {
+      "id": 26,
+      "tema": "CSS",
+      "pergunta": "O que é o box model em CSS?",
+      "resposta": "Modelo que descreve como elementos HTML são renderizados na tela"
+    },
+    {
+      "id": 27,
+      "tema": "JavaScript",
+      "pergunta": "Qual é o operador de negação em JavaScript?",
+      "resposta": "!"
+    },
+    {
+      "id": 28,
+      "tema": "Python",
+      "pergunta": "Qual é a função usada para verificar o tipo de dado em Python?",
+      "resposta": "type()"
+    },
+    {
+      "id": 29,
+      "tema": "SQL",
+      "pergunta": "Qual é a instrução usada para atualizar registros em uma tabela em SQL?",
+      "resposta": "UPDATE"
+    },
+    {
+      "id": 30,
+      "tema": "Redes",
+      "pergunta": "O que é um firewall?",
+      "resposta": "Um sistema de segurança que monitora e controla o tráfego de rede"
+    },
+    {
+      "id": 31,
+      "tema": "Java",
+      "pergunta": "O que é encapsulamento em Java?",
+      "resposta": "Ocultação do estado de um objeto e expor apenas o comportamento"
+    },
+    {
+      "id": 32,
+      "tema": "HTML",
+      "pergunta": "Qual é a tag usada para criar uma lista ordenada em HTML?",
+      "resposta": "<ol>"
+    },
+    {
+      "id": 33,
+      "tema": "CSS",
+      "pergunta": "Como se faz para selecionar elementos que são filhos diretos de outro elemento em CSS?",
+      "resposta": "Usando o seletor >"
+    },
+    {
+      "id": 34,
+      "tema": "JavaScript",
+      "pergunta": "Qual é o método usado para remover um elemento HTML de uma página em JavaScript?",
+      "resposta": "removeChild()"
+    },
+    {
+      "id": 35,
+      "tema": "Python",
+      "pergunta": "Qual é a função usada para imprimir na tela em Python?",
+      "resposta": "print()"
+    },
+    {
+      "id": 36,
+      "tema": "SQL",
+      "pergunta": "Qual é a instrução usada para inserir dados em uma tabela em SQL?",
+      "resposta": "INSERT INTO"
+    },
+    {
+      "id": 37,
+      "tema": "Redes",
+      "pergunta": "O que é um endereço MAC?",
+      "resposta": "Identificador único atribuído a dispositivos de rede"
+    },
+    {
+      "id": 38,
+      "tema": "Java",
+      "pergunta": "O que é uma classe em Java?",
+      "resposta": "Um modelo para criar objetos"
+    },
+    {
+      "id": 39,
+      "tema": "HTML",
+      "pergunta": "Qual é a tag usada para criar um link para um estilo CSS externo?",
+      "resposta": "<link>"
+    },
+    {
+      "id": 40,
+      "tema": "CSS",
+      "pergunta": "O que é o seletor de classe em CSS?",
+      "resposta": "Um seletor que seleciona elementos com um determinado valor de classe"
+    },
+    {
+      "id": 41,
+      "tema": "JavaScript",
+      "pergunta": "Qual é a diferença entre == e === em JavaScript?",
+      "resposta": "== compara apenas valores, === compara valores e tipos de dados"
+    },
+    {
+      "id": 42,
+      "tema": "Python",
+      "pergunta": "Qual é o operador usado para realizar a divisão inteira em Python?",
+      "resposta": "//"
+    },
+    {
+      "id": 43,
+      "tema": "SQL",
+      "pergunta": "Qual é a instrução usada para criar uma nova tabela em SQL?",
+      "resposta": "CREATE TABLE"
+    },
+    {
+      "id": 44,
+      "tema": "Redes",
+      "pergunta": "O que é um protocolo de rede?",
+      "resposta": "Um conjunto de regras que define como os dispositivos se comunicam em uma rede"
+    },
+    {
+      "id": 45,
+      "tema": "Java",
+      "pergunta": "O que é sobrecarga de método em Java?",
+      "resposta": "Ter vários métodos com o mesmo nome, mas diferentes parâmetros"
+    },
+    {
+      "id": 46,
+      "tema": "HTML",
+      "pergunta": "Qual é a tag usada para criar um campo de entrada de texto em HTML?",
+      "resposta": "<input>"
+    },
+    {
+      "id": 47,
+      "tema": "CSS",
+      "pergunta": "O que é o seletor de ID em CSS?",
+      "resposta": "Um seletor que seleciona um elemento com um determinado ID"
+    }
+  ]
+}

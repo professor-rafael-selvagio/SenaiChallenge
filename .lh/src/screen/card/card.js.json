@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/screen/card/card.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1714006293165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714006298809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import react from \"react\";\r\n+import {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006303853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import react from \"react\";\r\n+import {} from ''\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006309884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import react from \"react\";\r\n+import {} from 'react-native'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006315879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import react from \"react\";\r\n+import {View} from 'react-native'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006324166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n"
+                },
+                {
+                    "date": 1714006333782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006340177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default function Card\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006346628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default function Card()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006352122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default function Card(){\r\n+    r\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006360829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default function Card(){\r\n+    return(\r\n+        \r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006369300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \r\n export default function Card(){\r\n     return(\r\n         <View>\r\n-            \r\n+            <\r\n         </View>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714006377224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import react from \"react\";\r\n+import {View, Text} from 'react-native'\r\n+\r\n+export default function Card(){\r\n+    return(\r\n+        <View>\r\n+            <Text>Te</Text>\r\n+        </View>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1714006293165,
+            "name": "Commit-0",
+            "content": "import react from \"react\";"
+        }
+    ]
+}
