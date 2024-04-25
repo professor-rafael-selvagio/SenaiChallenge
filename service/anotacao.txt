@@ -1,0 +1,4 @@
+1 - Criar categoria para as cartas
+2 - Criar sistema de sala de jogo, para partidas simultaneas
+3 - Criar sistema de categoria de perguntas: geral ou escolher tema
+4 - Criar sistema de baixar perguntas e salvar em json

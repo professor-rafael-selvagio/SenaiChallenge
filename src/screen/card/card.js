@@ -10,12 +10,15 @@ import * as Animatable from 'react-native-animatable';
 import api from '../../service/index.js';
 
 
-
 export default function Card() {
+    const [indiceSort, setIndiceSort] = useState(-1);
     const [listQuestions, setListQuestions] = useState([]);
     const [theme, setTheme] = useState('');
+    const [tipo, setTipo] = useState('');
     const [question, setQuestion] = useState('');
     const [response, setResponse] = useState('');
+    const [responseV, setResponseV] = useState('');
+    const [responseF, setResponseF] = useState('');
     const [visible, setVisible] = useState(false);
 
     const navigation = useNavigation();
@@ -31,36 +34,78 @@ export default function Card() {
     function verificationCard() {
         if (!visible) {
             setVisible(true);
-            questions();
+            random();
+            //questions();
         } else {
             setVisible(false); 
+
             setTimeout(() => {
                 setVisible(true);
-            questions();
+                random();
+                //questions();
             }, 1500);
         }
     }
 
+    function getNextNumero() {
+        proximoNumero = indiceSort + 1;
+
+        if (proximoNumero == listQuestions.length){
+            embaralhar(null);
+            proximoNumero = 0;
+        }
+
+        console.log("proximoNumero -> " + proximoNumero);
+        setIndiceSort(proximoNumero);
+        return proximoNumero;
+    }
+    
+
     function random() {
-        const res = listQuestions[Math.floor(Math.random() * listQuestions.length)];
+        //const res = listQuestions[Math.floor(Math.random() * listQuestions.length)];
+        indice = getNextNumero();
+        const res = listQuestions[indice];
+        
         if (res !== undefined) {
             setTheme(res.tema);
+            setTipo(res.tipo);
             setQuestion(res.pergunta);
-            setResponse(res.resposta);
+    
+            if (res.tipo === "direta") {
+                setResponse(res.resposta);
+                setResponseV("");
+                setResponseF("");
+            } else {
+                setResponse("");
+                setResponseV(res.respostaV);
+                setResponseF(res.respostaF);
+            }
+            
             setVisible(true);
-            return;
         }
+    }
+
+    function embaralhar(listaDeCartas = null){
+        if (listaDeCartas == null){
+            listaDeCartas = listQuestions;
+        }
+
+        for (let i = listaDeCartas.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [listaDeCartas[i], listaDeCartas[j]] = [listaDeCartas[j], listaDeCartas[i]];
+        }
+
+        setListQuestions(listaDeCartas);
     }
 
     async function questions() {
         await api.get('/question')
             .then(response => {
-                setListQuestions(response.data);
+                embaralhar(response.data)
             })
             .catch(erro => {
                 console.error('error when making the request:' + erro);
             });
-        random();
     }
 
     return (
@@ -70,22 +115,39 @@ export default function Card() {
                     <Image style={styles.image} source={require('../../image/logoSenai.png')} />
                     <FontAwesome5 name="question-circle" size={32} color="#ff0808" />
                 </View>
+
+                
                 {visible ? (
                     <View style={styles.body}>
                         <Animatable.View style={styles.bodyCardVisible}  animation='flipInY' >
                             <Text style={styles.bodyTitle}>Tema: {theme}</Text>
                             <Text style={styles.bodyQuestion}>{question}</Text>
-                            <View style={styles.contentBodyResponse}>
-                                <Text style={styles.bodyResponse}>{response}</Text>
-                            </View>
+
+                            {
+                                tipo === "direta" ? (
+                                    <View style={styles.contentBodyResponse}>
+                                        <Text style={styles.bodyResponse}>{response}</Text>
+                                    </View>
+                                ) : (
+                                    <View style={styles.contentBodyResponse}>
+                                        <Text style={styles.bodyResponse}>
+                                            <Text style={styles.textV}>{responseV}</Text>{'\n'}{'\n'}
+                                            <Text style={styles.textF}>{responseF}</Text>
+                                        </Text>
+                                    </View>
+                                )
+                            }
                             
                         </ Animatable.View>
                     </View>
                 ) : (
+
                     <Animatable.View style={styles.bodyCard} animation='fadeInUpBig'>
                         <Image style={styles.bodyCardImage} source={require('../../image/cardBack.png')} />
                     </Animatable.View>
                 )}
+
+
                 <View style={styles.footer}>
                     <TouchableOpacity onPress={closeCard}>
                         <FontAwesome5 name="window-close" size={32} color="#ff0808" />
@@ -104,24 +166,35 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
+
     header: {
         width: '100%',
-        height: '20%',
+        height: '10%',
         paddingTop: 50,
-        padding: 10,
+        paddingLeft: 10,
+        paddingRight: 10,
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
-    image: {
-        width: 120,
-        height: 32,
-    },
     body: {
         width: '100%',
-        height: '60%',
+        height: '80%',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 10,
+    },
+    footer: {
+        width: '100%',
+        height: '10%',
+        padding: 10,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'flex-end'
+    },
+
+    image: {
+        width: 120,
+        height: 32,
     },
     bodyCardVisible: {
         backgroundColor: '#ff0808',
@@ -137,7 +210,6 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 40,
         fontWeight: 'bold',
-
     },
     bodyQuestion: {
         color: '#fff',
@@ -158,13 +230,11 @@ const styles = StyleSheet.create({
         color: '#ff0808',
         fontWeight: 'bold',
         fontSize: 20,
-        alignItems: 'center',
-        justifyContent: 'center',
-
-    },
+        textAlign: 'center',
+   },
     bodyCard: {
         width: '100%',
-        height: '60%',
+        height: '80%',
         alignItems: 'center',
         gap: 50,
         justifyContent: 'center',
@@ -176,12 +246,16 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 10,
     },
-    footer: {
-        width: '100%',
-        height: '20%',
-        padding: 10,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'flex-end'
-    }
+    textV: {
+        color: '#ff0808',
+        fontWeight: 'bold',
+        fontSize: 20,
+        textAlign: 'center',
+   }, 
+   textF: {
+        color: '#000000',
+        fontWeight: 'bold',
+        fontSize: 20,
+        textAlign: 'center',
+   }
 });
