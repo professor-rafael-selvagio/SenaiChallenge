@@ -9,7 +9,6 @@ import * as Animatable from 'react-native-animatable';
 
 import api from '../../service/index.js';
 
-
 export default function Card() {
     const [indiceSort, setIndiceSort] = useState(-1);
     const [listQuestions, setListQuestions] = useState([]);
@@ -35,14 +34,12 @@ export default function Card() {
         if (!visible) {
             setVisible(true);
             random();
-            //questions();
         } else {
             setVisible(false); 
 
             setTimeout(() => {
                 setVisible(true);
                 random();
-                //questions();
             }, 1500);
         }
     }
@@ -55,14 +52,12 @@ export default function Card() {
             proximoNumero = 0;
         }
 
-        console.log("proximoNumero -> " + proximoNumero);
         setIndiceSort(proximoNumero);
         return proximoNumero;
     }
     
 
     function random() {
-        //const res = listQuestions[Math.floor(Math.random() * listQuestions.length)];
         indice = getNextNumero();
         const res = listQuestions[indice];
         
