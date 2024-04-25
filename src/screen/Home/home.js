@@ -12,7 +12,7 @@ export default function Home(){
 
     return(
         <View style={styles.container}>
-            <Image source={require('../../image/logoSenai.png')}/>
+            <Image style={styles.image} source={require('../../image/logoSenai.png')}/>
             <Text style={styles.textName}>GameDev</Text>
             <TouchableOpacity style={styles.button} onPress={navegarCard}>
                 <Text style={styles.buttonText}>Play</Text>
@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#FF0808'
+    },
+    image:{
+        width: '90%',
+        height: '8%',
     },
     textName:{
         color: 'white',
