@@ -20,7 +20,9 @@ export default function Home(){
             <View style={styles.footer}>
                 <TouchableOpacity style={styles.touchableOpacity}>
                     <Text style={styles.textIdea} onPress={() => Linking.openURL('https://github.com/otreborBz/GameDev')}>Idealizado por Roberto 3MDS</Text>
-                    <Text style={styles.textIdea} onPress={() => Linking.openURL('https://github.com/professor-rafael-selvagio/SenaiChallenge')}>Atualizado por Rafael Selvagio</Text>
+                    <Text style={styles.textIdea} onPress={() => Linking.openURL('https://github.com/professor-rafael-selvagio/SenaiChallenge')}>
+                        Atualizado por Rafael Selvagio, Vinicius Santos e Wesley Pecoraro
+                    </Text>
                 </TouchableOpacity>
             </View>
         </View>
@@ -76,7 +78,6 @@ const styles = StyleSheet.create({
     },
     touchableOpacity: {
         flex: 1,
-        alignItems: 'center',
         margin: 5
     }
 })

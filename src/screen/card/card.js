@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { Alert, View, Text, StyleSheet, Image, TouchableOpacity, Modal, Button, ScrollView } from 'react-native';
 
 import {useNavigation} from '@react-navigation/native';
 
@@ -10,8 +10,11 @@ import * as Animatable from 'react-native-animatable';
 import api from '../../service/index.js';
 
 export default function Card() {
-    const [indiceSort, setIndiceSort] = useState(-1);
+    const [indexSort, setIndexSort] = useState(-1);
     const [listQuestions, setListQuestions] = useState([]);
+    const [id, setId] = useState('');
+    const [arrId, setArrId] = useState([]);
+    const [arrQuestion, setArrQuestion] = useState([]);
     const [theme, setTheme] = useState('');
     const [tipo, setTipo] = useState('');
     const [question, setQuestion] = useState('');
@@ -19,15 +22,30 @@ export default function Card() {
     const [responseV, setResponseV] = useState('');
     const [responseF, setResponseF] = useState('');
     const [visible, setVisible] = useState(false);
+    const [modalVisible, setModalVisible] = useState(false);
 
     const navigation = useNavigation();
 
     useEffect(() => {
-        questions();
+        showShuffle('begin');
     }, []);
 
     function closeCard(){
-        navigation.navigate('Home');
+        Alert.alert(
+            'Sair',
+            'Ao sair a sessão será finalizada.',
+            [
+                {
+                    text: 'Cancelar',
+                    style: 'cancel',
+                },
+                {
+                    text: 'Confirmar',
+                    onPress: () => navigation.navigate('Home'),
+                },
+            ],
+            { cancelable: false }
+        );
     }
 
     function verificationCard() {
@@ -44,24 +62,32 @@ export default function Card() {
         }
     }
 
-    function getNextNumero() {
-        proximoNumero = indiceSort + 1;
+    function getNextNumber() {
+        nextNumber = indexSort + 1;
 
-        if (proximoNumero == listQuestions.length){
-            embaralhar(null);
-            proximoNumero = 0;
+        if (nextNumber == listQuestions.length){
+            shuffle(null);
+            nextNumber = 0;
         }
 
-        setIndiceSort(proximoNumero);
-        return proximoNumero;
+        setIndexSort(nextNumber);
+        return nextNumber;
     }
     
+    const addItem = (item, question) => {
+        const newArrId = [...arrId, item];
+        const newArrQuestion = [... arrQuestion, question];
+        setArrId(newArrId);
+        setArrQuestion(newArrQuestion);
+      };
 
     function random() {
-        indice = getNextNumero();
-        const res = listQuestions[indice];
+        index = getNextNumber();
+        const res = listQuestions[index];
+        addItem(res.id, res.pergunta);
         
         if (res !== undefined) {
+            setId(res.id);
             setTheme(res.tema);
             setTipo(res.tipo);
             setQuestion(res.pergunta);
@@ -80,7 +106,23 @@ export default function Card() {
         }
     }
 
-    function embaralhar(listaDeCartas = null){
+    function showShuffle(msg = null) {
+        setIndexSort(-1);
+        title = msg == 'begin' ? 'Vamos iniciar?' : '';
+
+        questions();
+return;
+        Alert.alert(
+            title,
+            'As cartas foram embaralhadas.',
+            [
+            { text: 'OK', onPress: () => questions() }
+            ],
+            { cancelable: false }
+        );
+    }
+
+    function shuffle(listaDeCartas){
         if (listaDeCartas == null){
             listaDeCartas = listQuestions;
         }
@@ -93,10 +135,14 @@ export default function Card() {
         setListQuestions(listaDeCartas);
     }
 
+    const openHistory = () => {
+        setModalVisible(true);
+    };
+
     async function questions() {
         await api.get('/question')
             .then(response => {
-                embaralhar(response.data)
+                shuffle(response.data)
             })
             .catch(erro => {
                 console.error('error when making the request:' + erro);
@@ -105,18 +151,48 @@ export default function Card() {
 
     return (
         <View style={styles.container}>
+            <Modal
+                animationType="slide"
+                transparent={true}
+                visible={modalVisible}
+                onRequestClose={() => {
+                    setModalVisible(false);
+                }}
+                style={styles.modal}
+            >
+                <View style={styles.modalBackground}>
+                    <View style={styles.modalContent}>
+                        <Text style={styles.modalTitle}>    
+                            Histórico completo
+                        </Text>
+
+                        <ScrollView>
+                            {arrId.slice().reverse().map((id, index) => (
+                                <Text key={index}>
+                                {arrId.length - index} - (ID: {id}) {arrQuestion[arrQuestion.length - index - 1]}
+                                </Text>
+                            ))}
+                        </ScrollView>
+
+                        <Button title="Fechar" onPress={() => setModalVisible(false)} />
+                    </View>
+                </View>
+            </Modal>
+
             <View>
                 <View style={styles.header}>
                     <Image style={styles.image} source={require('../../image/logoSenai.png')} />
-                    <FontAwesome5 name="question-circle" size={32} color="#ff0808" />
+                    
+                    <TouchableOpacity onPress={openHistory}>
+                        <FontAwesome5 name="history" size={32} color="#ff0808" />   
+                    </TouchableOpacity>
                 </View>
 
-                
                 {visible ? (
                     <View style={styles.body}>
                         <Animatable.View style={styles.bodyCardVisible}  animation='flipInY' >
                             <Text style={styles.bodyTitle}>Tema: {theme}</Text>
-                            <Text style={styles.bodyQuestion}>{question}</Text>
+                            <Text style={styles.bodyQuestion}>{id} - {question}</Text>
 
                             {
                                 tipo === "direta" ? (
@@ -136,7 +212,6 @@ export default function Card() {
                         </ Animatable.View>
                     </View>
                 ) : (
-
                     <Animatable.View style={styles.bodyCard} animation='fadeInUpBig'>
                         <Image style={styles.bodyCardImage} source={require('../../image/cardBack.png')} />
                     </Animatable.View>
@@ -146,6 +221,10 @@ export default function Card() {
                 <View style={styles.footer}>
                     <TouchableOpacity onPress={closeCard}>
                         <FontAwesome5 name="window-close" size={32} color="#ff0808" />
+                    </TouchableOpacity>
+
+                    <TouchableOpacity onPress={showShuffle}>
+                        <FontAwesome5 name="stream" size={32} color="#ff0808" />
                     </TouchableOpacity>
                     
                     <TouchableOpacity onPress={verificationCard}>
@@ -161,6 +240,25 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
+
+    modalBackground: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      },
+      modalContent: {
+        backgroundColor: '#fff',
+        padding: 20,
+        borderRadius: 10,
+        height: '80%',
+        width: '80%',
+      },
+      modalTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 10,
+      },
 
     header: {
         width: '100%',
