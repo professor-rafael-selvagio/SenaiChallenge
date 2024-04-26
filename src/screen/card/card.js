@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Alert, View, Text, StyleSheet, Image, TouchableOpacity, Modal, Button, ScrollView } from 'react-native';
+import { Alert, View, Text, StyleSheet, Image, TouchableOpacity, Modal, Button, ScrollView, Linking } from 'react-native';
 import { Audio } from 'expo-av';
 
 import {useNavigation} from '@react-navigation/native';
@@ -11,6 +11,8 @@ import * as Animatable from 'react-native-animatable';
 import api from '../../service/index.js';
 
 export default function Card() {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [isMuted, setIsMuted] = useState(false);
     const [sound, setSound] = useState();
 
     const [indexSort, setIndexSort] = useState(-1);
@@ -40,19 +42,33 @@ export default function Card() {
     }, [sound]);
 
     async function playAudio() {
-        try {
-            const { sound } = await Audio.Sound.createAsync(
-                require('../../../service/time3.mp3')
-            );
-            setSound(sound);
-            console.log("Sound loaded:", sound);
-            const status = await sound.getStatusAsync();
-            console.log("Sound status:", status);
-            await sound.playAsync();
-        } catch (error) {
-            console.error("Error playing sound:", error);
+        if (!isPlaying){
+            try {
+                const { sound } = await Audio.Sound.createAsync(
+                    require('../../../service/time3.mp3')
+                );
+                setSound(sound);
+                const status = await sound.getStatusAsync();
+                await sound.playAsync();
+            } catch (error) {
+                console.error("Error playing sound:", error);
+            }
         }
     }
+
+    async function adjustSound() {
+        setIsPlaying(!isPlaying);
+
+        if (sound !== null) {
+            if (isMuted) {
+                await sound.setVolumeAsync(1);
+            } else {
+                await sound.setVolumeAsync(0);
+            }
+            
+            setIsMuted(!isMuted);
+        }
+    };
 
     function closeCard(){
         Alert.alert(
@@ -195,7 +211,7 @@ export default function Card() {
                         <ScrollView>
                             {arrId.slice().reverse().map((id, index) => (
                                 <Text key={index}>
-                                {arrId.length - index} - (ID: {id}) {arrQuestion[arrQuestion.length - index - 1]}
+                                    {arrId.length - index} - (ID: {id}) {arrQuestion[arrQuestion.length - index - 1]}
                                 </Text>
                             ))}
                         </ScrollView>
@@ -207,8 +223,16 @@ export default function Card() {
 
             <View>
                 <View style={styles.header}>
-                    <Image style={styles.image} source={require('../../image/logoSenai.png')} />
+                    <Text onPress={() => Linking.openURL('https://www.sp.senai.br/curso/tecnico-em-desenvolvimento-de-sistemas/97016')}>
+                        <Image style={styles.image} source={require('../../image/logoSenai.png')} />
+                    </Text>
                     
+                    
+                    
+                    <TouchableOpacity onPress={adjustSound}>
+                        <FontAwesome5 name={isPlaying ? "volume-off" : "volume-up"} size={32} color="#ff0808" />   
+                    </TouchableOpacity>
+
                     <TouchableOpacity onPress={openHistory}>
                         <FontAwesome5 name="history" size={32} color="#ff0808" />   
                     </TouchableOpacity>

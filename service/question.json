@@ -1075,7 +1075,7 @@
     },
     {
       "tema": "FPOO",
-      "tipo": "direta",
+      "tipo": "alternativa",
       "pergunta": "A composição também é uma forma de extensão, só que pela 'transferência de trabalho' para outro objeto.",
       "respostaV": "Verdadeiro",
       "respostaF": "Falso"
@@ -1913,7 +1913,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "O que RMS significa no contexto de requisitos de software?",
         "respostaA": "Requisitos de Manutenção de Software.",
         "respostaB": "Requisitos de Mapeamento de Sistemas.",
@@ -1922,7 +1922,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Qual é uma característica dos requisitos de software?",
         "respostaA": "Estabilidade.",
         "respostaB": "Aleatoriedade.",
@@ -1931,7 +1931,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "O que é um requisito funcional de software?",
         "respostaA": "Descreve as características externas do sistema.",
         "respostaB": "Define os processos internos do sistema.",
@@ -1940,7 +1940,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Qual é uma técnica comum para elicitar requisitos de software?",
         "respostaA": "Análise de Redes Sociais.",
         "respostaB": "Entrevistas com Stakeholders.",
@@ -1949,7 +1949,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Como os requisitos não funcionais são frequentemente classificados?",
         "respostaA": "Por sua complexidade.",
         "respostaB": "Por sua natureza.",

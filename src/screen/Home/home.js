@@ -7,27 +7,32 @@ export default function Home(){
 
     function navegarCard(){
         navigation.navigate('Card')
-     
     }
+
+    const openLink = () => {
+        Linking.openURL('https://sp.senai.br/unidade/saocarlos/');
+    };
 
     return(
         <View style={styles.container}>
-            <Image style={styles.image} source={require('../../image/logoSenai.png')}/>
+            <Image style={styles.senai} source={require('../../image/cfp601-saocarlos.png')} />
+
+            <Image style={styles.image} source={require('../../image/logoSenai.png')} />
+
             <Text style={styles.textName}>Challenge</Text>
             <TouchableOpacity style={styles.button} onPress={navegarCard}>
-                <Text style={styles.buttonText}>Play</Text>
+                <Text style={styles.buttonText}>Iniciar</Text>
             </TouchableOpacity>
             <View style={styles.footer}>
                 <TouchableOpacity style={styles.touchableOpacity}>
-                    <Text style={styles.textIdea} onPress={() => Linking.openURL('https://github.com/otreborBz/GameDev')}>Idealizado por Roberto 3MDS</Text>
-                    <Text style={styles.textIdea} onPress={() => Linking.openURL('https://github.com/professor-rafael-selvagio/SenaiChallenge')}>
-                        Atualizado por Rafael Selvagio, Vinicius Santos e Wesley Pecoraro
+                    <Text style={styles.textEquip} onPress={() => Linking.openURL('https://github.com/otreborBz/GameDev')}>Idealizado por Roberto 3MDS</Text>
+                    <Text style={styles.textEquip} onPress={() => Linking.openURL('https://github.com/professor-rafael-selvagio/SenaiChallenge')}>
+                        Orientado por Rafael Selvagio, Vinicius Santos e Wesley Pecoraro
                     </Text>
                 </TouchableOpacity>
             </View>
         </View>
     )
-
 }
 
 const styles = StyleSheet.create({
@@ -40,13 +45,19 @@ const styles = StyleSheet.create({
     image:{
         width: '90%',
         height: '8%',
+        marginTop: 20
+    },
+    senai: {
+        width: '90%',
+        height: '40%',
+        marginTop: -200
     },
     textName:{
         color: 'white',
         fontSize: 40,
         fontWeight: 'bold',
     },
-    textIdea:{
+    textEquip:{
         color: 'white',
         fontSize: 20,
         fontWeight: 'bold',
