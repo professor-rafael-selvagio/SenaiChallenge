@@ -1475,7 +1475,7 @@
     {
       "id": 3,
       "tema": "FBOO",
-      "tipo": "Direta",
+      "tipo": "direta",
       "pergunta": "Uma lista de constantes é separada por?",
       "resposta": "Vírgula"
     },
@@ -1642,21 +1642,21 @@
 {
       "id": "",
       "tema": "Etnografia",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "Cite dois tipos de Etnografia.",
       "resposta": "Passiva e ativa."
     },
     {
       "id": "",
       "tema": "Engenharia de Requisitos",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "Qual é o termo que descreve o processo de capturar e documentar as necessidades e especificações de um sistema de software de forma abstrata e compreensível?",
       "resposta": "Etnografia."
     },
     {
       "id": "",
       "tema": "Engenharia de Requisitos",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "O que é necessário para garantir que cada requisito seja identificável e rastreável ao longo do ciclo de vida do projeto de software?",
       "resposta": "Rastreabilidade de requisitos."
     },
@@ -1878,35 +1878,35 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Objetivo do levantamento de requisitos?",
         "resposta": "Identificar as necessidades e restrições do sistema."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Principais stakeholders no processo?",
         "resposta": "Clientes, usuários finais, desenvolvedores, gerentes de projeto, etc."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Importância de requisitos claros?",
         "resposta": "Evita ambiguidades e garante compreensão mútua."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Tipos de requisitos?",
         "resposta": "Funcionais e não funcionais."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Identificação de requisitos não funcionais?",
         "resposta": "Focando em aspectos como desempenho, segurança, usabilidade, etc."
       },

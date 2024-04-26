@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Alert, View, Text, StyleSheet, Image, TouchableOpacity, Modal, Button, ScrollView } from 'react-native';
+import { Audio } from 'expo-av';
 
 import {useNavigation} from '@react-navigation/native';
 
@@ -10,6 +11,8 @@ import * as Animatable from 'react-native-animatable';
 import api from '../../service/index.js';
 
 export default function Card() {
+    const [sound, setSound] = useState();
+
     const [indexSort, setIndexSort] = useState(-1);
     const [listQuestions, setListQuestions] = useState([]);
     const [id, setId] = useState('');
@@ -28,7 +31,28 @@ export default function Card() {
 
     useEffect(() => {
         showShuffle('begin');
-    }, []);
+
+        return sound
+        ? () => {
+              sound.unloadAsync();
+          }
+        : undefined;
+    }, [sound]);
+
+    async function playAudio() {
+        try {
+            const { sound } = await Audio.Sound.createAsync(
+                require('../../../service/time3.mp3')
+            );
+            setSound(sound);
+            console.log("Sound loaded:", sound);
+            const status = await sound.getStatusAsync();
+            console.log("Sound status:", status);
+            await sound.playAsync();
+        } catch (error) {
+            console.error("Error playing sound:", error);
+        }
+    }
 
     function closeCard(){
         Alert.alert(
@@ -103,23 +127,14 @@ export default function Card() {
             }
             
             setVisible(true);
+            playAudio();
         }
     }
 
     function showShuffle(msg = null) {
         setIndexSort(-1);
         title = msg == 'begin' ? 'Vamos iniciar?' : '';
-
         questions();
-return;
-        Alert.alert(
-            title,
-            'As cartas foram embaralhadas.',
-            [
-            { text: 'OK', onPress: () => questions() }
-            ],
-            { cancelable: false }
-        );
     }
 
     function shuffle(listaDeCartas){
@@ -146,7 +161,14 @@ return;
     async function questions() {
         await api.get('/question')
             .then(response => {
-                shuffle(response.data)
+                shuffle(response.data);
+
+                /*Alert.alert(
+                    'Embaralhadas',
+                    'As cartas foram embaralhadas.',
+                    [{ text: 'OK' }],
+                    { cancelable: false }
+                );*/
             })
             .catch(erro => {
                 console.error('error when making the request:' + erro);
