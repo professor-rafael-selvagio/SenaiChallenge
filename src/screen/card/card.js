@@ -125,6 +125,10 @@ return;
     function shuffle(listaDeCartas){
         if (listaDeCartas == null){
             listaDeCartas = listQuestions;
+        } else {
+            for (let i = 0, j = 1; i < listaDeCartas.length; i++, j++) {
+                listaDeCartas[i].id = j;
+            }
         }
 
         for (let i = listaDeCartas.length - 1; i > 0; i--) {
