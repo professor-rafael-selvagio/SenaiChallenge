@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1714014971828,
@@ -59,6 +59,22 @@
                 },
                 {
                     "date": 1714016955076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import axios from 'axios'\r\n+\r\n+const api = axios.create({\r\n+    baseURL: 'http://192.168.0.147:3000'\r\n+});\r\n+\r\n+export default api;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714337542006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,7 @@\n import axios from 'axios'\r\n \r\n const api = axios.create({\r\n-    baseURL: 'http://192.168.0.147:3000'\r\n+    baseURL: 'http://192.168.:3000'\r\n });\r\n \r\n-export default api;\n-import axios from 'axios'\r\n-\r\n-const api = axios.create({\r\n-    baseURL: 'http://192.168.0.147:3000/question'\r\n-});\r\n-\r\n-export default api;\n-import axios from 'axios'\r\n-\r\n-const api = axios.create({\r\n-    baseURL: 'http://localhost:3000/question'\r\n-});\r\n-\r\n export default api;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714337548673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import axios from 'axios'\r\n \r\n const api = axios.create({\r\n-    baseURL: 'http://192.168.:3000'\r\n+    baseURL: 'http://192.168..0.:3000'\r\n });\r\n \r\n export default api;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714337674320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import axios from 'axios'\r\n+\r\n+const api = axios.create({\r\n+    baseURL: 'http://192.168..0.147:3000'\r\n+});\r\n+\r\n+export default api;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1714337803638,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import axios from 'axios'\r\n+\r\n+const api = axios.create({\r\n+    baseURL: 'http://192.168.0.147:3000'\r\n+});\r\n+\r\n+export default api;\n\\ No newline at end of file\n"
                 }
             ],

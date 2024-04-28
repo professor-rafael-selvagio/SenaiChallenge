@@ -223,11 +223,9 @@ export default function Card() {
 
             <View>
                 <View style={styles.header}>
-                    <Text onPress={() => Linking.openURL('https://www.sp.senai.br/curso/tecnico-em-desenvolvimento-de-sistemas/97016')}>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://www.sp.senai.br/curso/tecnico-em-desenvolvimento-de-sistemas/97016')}>
                         <Image style={styles.image} source={require('../../image/logoSenai.png')} />
-                    </Text>
-                    
-                    
+                    </TouchableOpacity>
                     
                     <TouchableOpacity onPress={adjustSound}>
                         <FontAwesome5 name={isPlaying ? "volume-off" : "volume-up"} size={32} color="#ff0808" />   
@@ -312,7 +310,7 @@ const styles = StyleSheet.create({
 
     header: {
         width: '100%',
-        height: '10%',
+        height: '12%',
         paddingTop: 50,
         paddingLeft: 10,
         paddingRight: 10,
@@ -328,7 +326,7 @@ const styles = StyleSheet.create({
     },
     footer: {
         width: '100%',
-        height: '10%',
+        height: '8%',
         padding: 10,
         flexDirection: 'row',
         justifyContent: 'space-between',
