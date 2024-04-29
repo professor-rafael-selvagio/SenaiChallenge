@@ -1074,19 +1074,22 @@
       "resposta": "super"
     },
     {
+      "id": "",
       "tema": "FPOO",
-      "tipo": "direta",
+      "tipo": "alternativa",
       "pergunta": "A composição também é uma forma de extensão, só que pela 'transferência de trabalho' para outro objeto.",
       "respostaV": "Verdadeiro",
       "respostaF": "Falso"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "direta",
       "pergunta": "O que é composição em programação orientada a objetos?",
       "resposta": "A composição é quando um objeto é construído usando outros objetos como partes."
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "alternativa",
       "pergunta": "Produto com Data de validade é um atributo da classe Produto, mas também é um objeto da classe Data, ou seja, o Produto depende do uso do serviço de Data. Nesse exemplo está correto? Sim ou não",
@@ -1094,6 +1097,7 @@
       "respostaF": "não"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "alternativa",
       "pergunta": "A composição não é obtida usando variável de instancia que se refere a outros objetos.",
@@ -1101,12 +1105,14 @@
       "respostaF": "Verdadeiro"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "direta",
       "pergunta": "Qual é o benefício principal da composição em relação à herança na programação orientada a objetos?",
       "resposta": "Reutilização de código para evitar problemas de hierarquia e implementações."
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "alternativa",
       "pergunta": "Ao usar a composição, podemos alterar os objetos membros me tempo de execução, para alterar dinamicamente o comportamento do programa. Isso pode ser considerado um benéfico?",
@@ -1114,12 +1120,14 @@
       "respostaF": "não"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "direta",
       "pergunta": "Qual é o principal benefício da composição sobre a herança na programação orientada a objetos?",
       "resposta": "Flexibilidade"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "alternativa",
       "pergunta": "Na linguagem Java é benéfico o uso de composição, pois o Java não suporta múltiplas heranças sendo possível alcançar um cenário semelhante.",
@@ -1127,12 +1135,14 @@
       "respostaF": "Falso"
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "direta",
       "pergunta": "O que é uma interface em programação orientada a objetos?",
       "resposta": "É um conjunto de métodos abstratos que definem uma interação para as classes implementadas."
     },
     {
+      "id": "",
       "tema": "FPOO",
       "tipo": "direta",
       "pergunta": "Qual é o principal objetivo de uma interface em programação orientada a objetos?",
@@ -1473,30 +1483,30 @@
       "respostaF": "Conjunto limitado de opções predefinidas"
     },
     {
-      "id": 3,
+      "id": "",
       "tema": "FBOO",
-      "tipo": "Direta",
+      "tipo": "direta",
       "pergunta": "Uma lista de constantes é separada por?",
       "resposta": "Vírgula"
     },
     {
-      "id": 4,
+      "id": "",
       "tema": "FBOO",
-      "tipo": "Enumerações",
+      "tipo": "alternativa",
       "pergunta": "As enumerações podem ter métodos?",
       "respostaV": "Verdadeiro",
       "respostaF": "Falso"
     },
     {
-      "id": 5,
+      "id": "",
       "tema": "FBOO",
-      "tipo": "Enumerações",
+      "tipo": "alternativa",
       "pergunta": "O construtor de uma classe enum é sempre private?",
       "respostaV": "Verdadeiro",
       "respostaF": "Falso"
     },
     {
-      "id": 6,
+      "id": "",
       "tema": "FBOO",
       "tipo": "Relacionamento de Objetos",
       "pergunta": "No relacionamento de objetos, existe agregação e composição?",
@@ -1504,7 +1514,7 @@
       "respostaF": "Falso"
     },
     {
-      "id": 7,
+      "id": "",
       "tema": "FBOO",
       "tipo": "Relacionamento de Objetos",
       "pergunta": "Qual alternativa está correta:",
@@ -1512,7 +1522,7 @@
       "respostaF": "A agregação é um tipo de herança múltipla entre objetos"
     },
     {
-      "id": 8,
+      "id": "",
       "tema": "FBOO",
       "tipo": "Relacionamento de Objetos",
       "pergunta": "Qual alternativa está incorreta:",
@@ -1520,7 +1530,7 @@
       "respostaF": "Composição é um Relacionamento do tipo todo/parte"
     },
     {
-      "id": 9,
+      "id": "",
       "tema": "FBOO",
       "tipo": "Relacionamento de Objetos",
       "pergunta": "Em Java não existe relacionamento de objetos?",
@@ -1528,7 +1538,7 @@
       "respostaF": "VERDADEIRO"
     },
     {
-      "id": 10,
+      "id": "",
       "tema": "FBOO",
       "tipo": "Relacionamento de Objetos",
       "pergunta": "Nessa classe existe relacionamento de objetos?",
@@ -1611,28 +1621,28 @@
       "resposta": "Public"
     },
     {
-      "id": 7,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "etnografia é uma técnica de levantamento de requisitos extremamente eficaz quando se quer descobrir como as pessoas trabalham dentro do ambiente e como elas cooperam para a execução das tarefas. Verdadeiro ou falso?",
       "resposta": "VERDADEIRO"
     },
     {
-      "id": 8,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "etnografia é uma declaração que descreve uma necessidade ou funcionalidade específica de um sistema ou software que não está operando conforme o esperado ou não está alcançando seus objetivos pretendidos. Verdadeiro ou falso?",
       "resposta": "FALSO"
     },
 {
-      "id": 9,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "rastreabilidade de requisitos é a capacidade de documentar e acompanhar as relações entre os requisitos ao longo do ciclo de vida de um projeto. Verdadeiro ou falso?",
       "resposta": "VERDADEIRO"
     },
 {
-      "id": 10,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "rastreabilidade de requisitos é o processo de criar representações abstratas de um sistema de software antes de sua implementação. Verdadeiro ou falso?",
@@ -1642,21 +1652,21 @@
 {
       "id": "",
       "tema": "Etnografia",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "Cite dois tipos de Etnografia.",
       "resposta": "Passiva e ativa."
     },
     {
       "id": "",
       "tema": "Engenharia de Requisitos",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "Qual é o termo que descreve o processo de capturar e documentar as necessidades e especificações de um sistema de software de forma abstrata e compreensível?",
       "resposta": "Etnografia."
     },
     {
       "id": "",
       "tema": "Engenharia de Requisitos",
-      "tipo": "aberta",
+      "tipo": "direta",
       "pergunta": "O que é necessário para garantir que cada requisito seja identificável e rastreável ao longo do ciclo de vida do projeto de software?",
       "resposta": "Rastreabilidade de requisitos."
     },
@@ -1687,28 +1697,28 @@
       "respostaF": "Ignorar a relação entre requisitos e funcionalidades"
     },
     {
-      "id": 7,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "etnografia é uma técnica de levantamento de requisitos extremamente eficaz quando se quer descobrir como as pessoas trabalham dentro do ambiente e como elas cooperam para a execução das tarefas. Verdadeiro ou falso?",
       "resposta": "VERDADEIRO"
     },
     {
-      "id": 8,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "etnografia é uma declaração que descreve uma necessidade ou funcionalidade específica de um sistema ou software que não está operando conforme o esperado ou não está alcançando seus objetivos pretendidos. Verdadeiro ou falso?",
       "resposta": "FALSO"
     },
 {
-      "id": 9,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "rastreabilidade de requisitos é a capacidade de documentar e acompanhar as relações entre os requisitos ao longo do ciclo de vida de um projeto. Verdadeiro ou falso?",
       "resposta": "VERDADEIRO"
     },
 {
-      "id": 10,
+      "id": "",
       "tema": "RMS",
       "tipo": "direta",
       "pergunta": "rastreabilidade de requisitos é o processo de criar representações abstratas de um sistema de software antes de sua implementação. Verdadeiro ou falso?",
@@ -1878,42 +1888,42 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Objetivo do levantamento de requisitos?",
         "resposta": "Identificar as necessidades e restrições do sistema."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Principais stakeholders no processo?",
         "resposta": "Clientes, usuários finais, desenvolvedores, gerentes de projeto, etc."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Importância de requisitos claros?",
         "resposta": "Evita ambiguidades e garante compreensão mútua."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Tipos de requisitos?",
         "resposta": "Funcionais e não funcionais."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "Direta",
+        "tipo": "direta",
         "pergunta": "Identificação de requisitos não funcionais?",
         "resposta": "Focando em aspectos como desempenho, segurança, usabilidade, etc."
       },
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "O que RMS significa no contexto de requisitos de software?",
         "respostaA": "Requisitos de Manutenção de Software.",
         "respostaB": "Requisitos de Mapeamento de Sistemas.",
@@ -1922,7 +1932,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Qual é uma característica dos requisitos de software?",
         "respostaA": "Estabilidade.",
         "respostaB": "Aleatoriedade.",
@@ -1931,7 +1941,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "O que é um requisito funcional de software?",
         "respostaA": "Descreve as características externas do sistema.",
         "respostaB": "Define os processos internos do sistema.",
@@ -1940,7 +1950,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Qual é uma técnica comum para elicitar requisitos de software?",
         "respostaA": "Análise de Redes Sociais.",
         "respostaB": "Entrevistas com Stakeholders.",
@@ -1949,7 +1959,7 @@
       {
         "id": "",
         "tema": "RMS",
-        "tipo": "A ou B",
+        "tipo": "alternativa",
         "pergunta": "Como os requisitos não funcionais são frequentemente classificados?",
         "respostaA": "Por sua complexidade.",
         "respostaB": "Por sua natureza.",
@@ -2034,6 +2044,2029 @@
       "pergunta": "Qual é o objetivo do diagrama de classes em UML?",
       "respostaV": "A)Estrutura",
       "respostaF": "B)Estrutura"
+    },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "O que são casos de uso?",
+        "resposta": "Interações"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Qual é a principal vantagem de utilizar a metodologia ágil no desenvolvimento de software?",
+        "respostaV": "Flexibilidade e adaptabilidade às mudanças",
+        "respostaF": "Rigidez e planejamento detalhado desde o início"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Qual é o termo para requisitos que podem ser alterados sem afetar a integridade do sistema?",
+        "resposta": "requisitos flexíveis"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "O que é um requisito funcional em engenharia de software?",
+        "respostaV": "Descreve o comportamento do sistema",
+        "respostaF": "Estabelece restrições de desempenho"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Qual é o termo para os requisitos que são necessários para que um sistema opere corretamente?",
+        "resposta": "requisitos essenciais"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Qual é o objetivo principal da documentação de requisitos de software?",
+        "respostaV": "Comunicar claramente as necessidades e expectativas do cliente",
+        "respostaF": "Criar uma barreira para impedir alterações no projeto"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Como se chama o processo de verificar se os requisitos foram compreendidos e documentados corretamente?",
+        "resposta": "validação de requisitos"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "O que é testabilidade em relação aos requisitos de software?",
+        "respostaV": "Facilidade de verificar se o software atende aos requisitos",
+        "respostaF": "Nível de complexidade dos requisitos"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "O que são requisitos funcionais?",
+        "resposta": "Funcionalidades"
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Por que é importante validar os requisitos de software com os stakeholders?",
+        "respostaV": "Para garantir que o software atenderá às necessidades do usuário final",
+        "respostaF": "Para reduzir custos de desenvolvimento"
+      },
+
+           {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Como os modelos de documentação podem aumentar a eficiência?",
+        "resposta": "Agilidade."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Qual a chave para criar modelos de documentação eficazes?",
+        "resposta": "Clareza."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "O que os modelos de documentação promovem na equipe?",
+        "resposta": "Consistência."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "direta",
+        "pergunta": "Por que os modelos de documentação são importantes para a manutenção do conhecimento?",
+        "resposta": "Continuidade."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Os modelos de documentação são úteis para:",
+        "respostaV": "Padronizar informações.",
+        "respostaF": "Causar confusão."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Modelos de documentação ajudam na:",
+        "respostaV": "Coerência de documentos.",
+        "respostaF": "Diversificação de estilos."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Um modelo de documentação bem elaborado facilita a:",
+        "respostaV": "Compreensão do Conteúdo.",
+        "respostaF": "Ocultação de informações."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Modelos de documentação promovem a:",
+        "respostaV": "Eficiência.",
+        "respostaF": "Desorganização."
+      },
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "alternativa",
+        "pergunta": "Modelos de documentação ajudam a:",
+        "respostaV": "Estruturar informações.",
+        "respostaF": "Confundir leitores."
+      },
+
+      {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Direta",
+        "pergunta": "Qual é o foco do brainstorming?",
+        "resposta": "Criatividade"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Direta",
+        "pergunta": "Qual é o objetivo do brainstorming convergente??",
+        "resposta": "Seleção de ideias"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Direta",
+        "pergunta": "O que é um mind map, frequentemente usado como uma ferramenta durante o brainstorming?",
+        "resposta": "Representação gráfica"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Direta",
+        "pergunta": "Qual é a principal regra do brainstorming?",
+        "resposta": "Geração livre de ideias"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Direta",
+        "pergunta": "O que é incentivado durante uma sessão de brainstorming?",
+        "resposta": "Participação ativa"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Alternativa",
+        "pergunta": "O que é um requisito funcional?",
+        "respostaV": "Descreve função específica de sistema",
+        "respostaF": "Descreve características de desempenho e qualidade."
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Alternativa",
+        "pergunta": "O que é um diagrama de atividades na UML (Unified Modeling Language)?",
+        "respostaV": "Descreve a sequência de ações ou fluxo de atividades em um processo.",
+        "respostaF": "Mostra a interação entre objetos em um sistema."
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Alternativa",
+        "pergunta": "Qual é o principal objetivo da documentação de requisitos de software?",
+        "respostaV": "Especificar as necessidades e funcionalidades do software.",
+        "respostaF": "Especificar as SOMENTE as necessidades do software"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Alternativa",
+        "pergunta": "O que é um questionário de requisitos?",
+        "respostaV": "Um conjunto de questões estruturadas para coletar informações sobre requisitos.",
+        "respostaF": "Uma lista de perguntas para avaliar a satisfação do cliente"
+    },
+    {
+        "id": "",
+        "tema": "RMS",
+        "tipo": "Alternativa",
+        "pergunta": "O que é um backlog de produto em métodos ágeis como o Scrum?",
+        "respostaV": "Uma lista priorizada de funcionalidades e requisitos do produto",
+        "respostaF": " Uma lista de bugs encontrados no software"
+    },
+
+    
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Direta",
+      "pergunta": "Qual é o diagramada UML utilizado durante a fase de análise de requisitos?",
+      "resposta": "Casos de uso"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Direta",
+      "pergunta": "Qual é o principal objetivo da modelagem de requisitos?",
+      "resposta": "Documentar requisitos"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Direta",
+      "pergunta": "Que tipo de diagrama é usado para representar a estrutura estática de um sistema? ",
+      "resposta": "Diagrama de classes."
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "A observação contextual é uma técnica de elicitação de requisitos.",
+      "respostaV": "Verdadeiro",
+      "respostaF": "Falso"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "Os requisitos não funcionais descrevem apenas o que o sistema deve fazer.",
+      "respostaV": "Falso",
+      "respostaF": "Verdadeiro"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "O que é um diagrama que descreve a interação entre os usuários e o sistema?",
+      "respostaV": "Diagrama de Sequência",
+      "respostaF": "Diagrama de Classe"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "Qual é a técnica de elicitação que envolve conversas estruturadas com os stakeholders para identificar requisitos?",
+      "respostaV": "Entrevista",
+      "respostaF": "Prototipação"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "Qual é o principal artefato produzido durante a fase de análise de requisitos?",
+      "respostaV": "Casos de uso",
+      "respostaF": "Diagrama de classe"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "O que significa a sigla SRS em Engenharia de Requisitos?",
+      "respostaV":"Software Requirements Specification",
+      "respostaF": "System Requirements Specification"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "Alternativa",
+      "pergunta": "Qual é a finalidade da análise de requisitos na engenharia de software?",
+      "respostaV": "Compreender e documentar as necessidades dos usuários ",
+      "respostaF": "Desenvolver o código-fonte do sistema"
+    },
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "Qual a função principal de um diagrama de comunicação?",
+      "resposta": "interação"
+    },
+
+
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual é a importância da priorização de requisitos?",
+      "respostaV": "Determinar quais requisitos serão implementados primeiro",
+      "respostaF": "Descrever detalhadamente cada requisito"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual é o processo de coleta, análise e documentação dos requisitos do sistema",
+      "respostaV": "Levantamento de requisitos",
+      "respostaF": "Prototipagem "
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": " O diagrama de implementação descreve apenas a interação entre os objetos do sistema?",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual técnica é usada para gerar ideias livremente em grupo?",
+      "respostaV": "Brainstorming",
+      "respostaF": "Entrevista em grupo"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "O que é representado em um diagrama de classe?",
+      "resposta": "estrutura"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": " Os requisitos não funcionais são opcionais e podem ser ignorados durante o desenvolvimento do sistema?",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual técnica é usada para criar um modelo simplificado do sistema para validar requisitos?",
+      "respostaV": "Prototipagem",
+      "respostaF": "Brainstorming"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual técnica é utilizada para criar modelos visuais que representam as interações entre diferentes partes interessadas do sistema?",
+      "respostaV": " Diagramas de comunicação",
+      "respostaF": "Brainstorming."
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "O que é um protótipo de software?",
+      "resposta": "modelo"
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "qual o termo que utilizamos para um projeto em requisitos de modelagem de sofware",
+      "resposta": "go horse"
+    },
+    {
+      "id": "",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "processo de diagramação do fluxo de dados",
+      "resposta": "Modelagem de dados"
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "Restringe ou define a estrutura do software, de acordo com o cliente",
+      "resposta": "Regras de Negócio"
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "É uma técnica frequentemente usada para explorar soluções criativas para problemas?",
+      "resposta": "BrainStorm"
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "direta",
+      "pergunta": "Processo de assegurar que a aplicação possui todos os requisitos estão validados",
+      "resposta": "Validação de requisitos"
+      
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Qual é o melhor metodo para se aplicar um RMS",
+      "respostaV": "Levantamento de requisitos",
+      "respostaF": "GO HORSE"   
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "É muito melhor cada membro da equipe desenvolver algo sozinho, do que uma reunião criativa em equipe",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"   
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Utilizar modelos de documentação, não é uma pratica regular de uma empresa",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"   
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "A opção que mais se encaixa em REGRAS DE NEGÓCIO é",
+      "respostaV": "Seguir um padrão determinado pela empresa",
+      "respostaF": "Criar um software definido e estruturado pela própria equipe"   
+    },
+    {
+      "id":"",
+      "tema": "RMS",
+      "tipo": "alternativa",
+      "pergunta": "Elaboração e aplicação da estratégia de comunicação da mudança para o time",
+      "respostaV": "Gestão de mudanças",
+      "respostaF": "levantamento de requisito"   
+    },
+    {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": " O ALTER TABLE é utilizado para alterar o nome de uma coluna de uma tabela existente.",
+      "respostaV": "Verdadeiro",
+      "respostaF": "Falso"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": " Qual é o comando usado para excluir permanentemente uma tabela e todos os seus dados do banco de dados?",
+      "resposta": "DROP TABLE"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": " Qual é a cláusula que é usada para criar uma chave estrangeira em uma tabela. ",
+      "resposta": "FOREIGN KEY"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": " Qual é o comando usado para acessar uma tabela?",
+      "respostaV": "SELECT",
+      "respostaF": "INTRO TABLE"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": " Qual é o dado utilizado para especificar um nome em uma tabela em Banco de Dados?",
+      "respostaV": "VARCHAR",
+      "respostaF": "STRING"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": " Qual é o nome dado a um comando usado para modificar a definição de um evento existente?",
+      "respostaV": "ALTER EVENT",
+      "respostaF": "MODIFY EVENT"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": " O comando dado para iniciar o bloco de código que será executado quando o evento for disparado é: ",
+      "resposta": "BEGIN"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": " Podemos verificar os eventos existentes através de qual comando?",
+      "resposta": "SHOW EVENTS"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "NOT é utilizado em conjunto com o ON COMPLETION PRESERVE para negar preservação do evento após a conclusão. ",
+      "respostaV": "Falso",
+      "respostaF": "Verdadeiro"
+  },
+  {
+      "id": "",
+      "tema": "",
+      "tipo": "direta",
+      "pergunta": "Qual é o comando dado para indicar que o evento deve ser mantido no banco de dados após a conclusão do corpo do evento? ",
+      "resposta": "PRESERVE"
+  },
+  
+{ 
+  "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Em que situações você consideraria o uso de uma subconsulta em vez de uma junção (JOIN) em SQL?",
+    "reposta": "DENTRO DA CLÁUSULA IN"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Qual é o propósito principal de um trigger?",
+    "reposta": "AUTOMATIZAR"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Quando um trigger é executado e considerado um",
+    "reposta": "EVENTO"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "este modo de criar uma trigger CREATE TRIGGER atualizar_data_modificacao BEFORE INSERT ON tabela_exemplo FOR EACH ROW SET.",
+    "repostaV": "Verdadeiro",
+    "repostaF": "Falso"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "DROP TRIGGER IF EXISTS atualizar_data_modificacao;  esse codigo e utilizado para Remover um Trigger?",
+    "repostaV": "Verdadeiro",
+    "repostaF": "Falso"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Subconsultas são executadas antes da consulta principal em SQL.",
+    "repostaV": "Verdadeiro",
+    "repostaF": "Falso"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Uma subconsulta sempre retorna múltiplas linhas de dados.",
+    "repostaV": "Falso",
+    "repostaF": "Verdadeiro"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Subconsultas são exclusivas para SQL e não são encontradas em outras linguagens de consulta de banco de dados.",
+    "repostaV": "Falso",
+    "repostaF": "Verdadeiro"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "quais são uma subconsulta?",
+    "repostaV": "Select, from, where, having e join",
+    "repostaF": "Where,In,Update,Before,After"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Quais são os possíveis eventos que podem acionar um trigger?",
+    "repostaV": "Inserção, atualização, exclusão.",
+    "repostaF": "Join,before,after"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Qual é o principal propósito das Stored Procedures em um banco de dados?",
+    "reposta": "Automação"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Que tipo de estruturação de dados é possível realizar usando Stored Procedures?",
+    "reposta": "Modularização"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "direta",
+    "pergunta": "Qual é o termo usado para se referir a parâmetros que podem ser passados para uma Stored Procedure?",
+    "reposta": "Argumentos"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "O comando ROLLBACK é usado para confirmar uma transação no banco de dados.",
+    "repostaV": "Falso",
+    "repostaF": "Verdadeiro"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "O comando ROLLBACK pode ser usado para desfazer todas as transações confirmadas até o momento.",
+    "repostaV": "Falso",
+    "repostaF": "Verdadeiro"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Procedures são geralmente armazenadas como registros em uma tabela especial no banco de dados",
+    "repostaV": "Falso",
+    "repostaF": "Verdadeiro"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Procedures são geralmente armazenadas como registros em uma tabela especial no banco de dados",
+    "repostaV": "Verdadeiro",
+    "repostaF": "Falso"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "As Stored Procedures podem ser chamadas por aplicativos externos para realizar operações no banco de dados",
+    "repostaV": "Verdadeiro",
+    "repostaF": "Falso"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Além de COMMIT e ROLLBACK, qual é o outro comando do TCL frequentemente utilizado para controle de transações?",
+    "repostaV": "Savepoint",
+   "repostaF": "DDL"
+},
+{
+    "id": "",
+    "tema": "BD",
+    "tipo": "alternativa",
+    "pergunta": "Qual é o comando utilizado para desfazer apenas parte das alterações feitas em uma transação, retornando ao ponto especificado?",
+    "repostaV": "Rollback to Savepoint",
+    "repostaF": "Rollfront to Savepoint"
+},
+{
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "Qual comando é usado para conceder privilégios em MySQL?",
+  "respostaV": "GRANT",
+  "respostaF": "REVOKE"
+  },
+  {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "Quais são as ações que podem ser concedidas ou revogadas usando DCL em MySQL? ",
+  "respostaV": " ALL, SELECT, DELETE ",
+  "respostaF": " SELECT, UPDATE, DELETE"
+  },
+   {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "Quando você concede privilégios no MySQL, a quem você os concede? ",
+  "respostaV": "Usuário",
+  "respostaF": "Tabela"
+  },
+   {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "Qual comando você usaria para conceder ao usuário 'john' todos os privilégios na tabela 'clientes' no banco de dados 'empresa'? ",
+  "respostaV": "GRANT ALL PRIVILEGES ON empresa.clientes TO 'john'@'localhost';  ",
+  "respostaF": "GRANT ALL ON empresa.clientes TO 'john'@'localhost';"
+  },
+  {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "O comando REVOKE é usado para revogar privilégios concedidos em MySQL. (Verdadeiro ou Falso).",
+  "respostaV": "Verdadeiro  ",
+  "respostaF": "Falso"
+  },
+  {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "O comando GRANT pode ser usado para conceder privilégios em tabelas e bancos de dados específicos. (Verdadeiro ou Falso).",
+  "respostaV": "Verdadeiro  ",
+  "respostaF": "Falso"
+  },
+  {
+  "id": "",
+  "tema": "BD",
+  "tipo": "altenativa",
+  "pergunta": "O comando REVOKE é usado para retirar privilégios previamente concedidos a usuários no MySQL. (Verdadeiro ou Falso).",
+  "respostaV": "Verdadeiro  ",
+  "respostaF": "Falso"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual comando é usado para registrar novas informações em uma tabela?",
+      "respostaV": "INSERT",
+      "respostaF": "UPDATE"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual comando é usado para atualizar dados em uma tabela?",
+      "respostaV": "UPDATE",
+      "respostaF": "ALTER"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual cláusula é usada para filtrar dados em uma instrução SELECT?",
+      "respostaV": "WHERE",
+      "respostaF": "FROM"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual comando é usado para remover dados de uma tabela?",
+      "respostaV": "DELETE",
+      "respostaF": "TRUNCATE"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual comando é usado para ordenar os dados de uma consulta?",
+      "respostaV": "ORDER BY",
+      "respostaF": "GROUP BY"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "O SQL é uma linguagem de programação usada exclusivamente para gerenciar bancos de dados.",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "O SQL é uma linguagem case-insensitive, o que significa que não faz distinção entre maiusculas e minúsculas em palavras-chave e identificadores",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Em SQL, uma chave estrangeira é usada para estabelecer uma relação entre duas tabelas em um banco de dados.",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "A cláusula WHERE em uma consulta SQL é usada para filtrar resultados com base em condições específicas",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Os comandos SQL INSERT e DELETE são usados para modificar dados existentes em uma tabela",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "Funções SQL para datas e horas realizam operações como adição, subtração e formatação de valores? (Verdadeiro/Falso)",
+      "resposta": "VERDADEIRO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "Funções matemáticas SQL realizam cálculos como soma, subtração, multiplicação e divisão? (Verdadeiro/Falso)",
+      "resposta": "VERDADEIRO"
+  }
+ ,{
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "COUNT() conta o número de registros em um conjunto de resultados de consulta? (Verdadeiro/Falso)",
+      "resposta": "VERDADEIRO"
+  }
+  ,{
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "A cláusula GROUP BY agrupa os resultados de uma consulta SQL por colunas específicas?(Verdadeiro/Falso)",
+      "resposta": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "O operador UNION combina o resultado de duas ou mais consultas em uma única tabela de resultados? (Verdadeiro/Falso)",
+      "resposta": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "A função COUNT() é utilizada para contar o número de registros em um conjunto de resultados de consulta?(Verdadeiro/Falso)",
+      "resposta": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "O operador UNION combina o resultado de duas ou mais consultas em uma única tabela de resultados? (Verdadeiro/Falso)",
+      "resposta": "FALSO"
+  }
+  ,
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "Direta",
+      "pergunta": "O operador UNION combina o resultado de duas ou mais consultas em uma única tabela de resultados? (Verdadeiro/Falso)",
+      "resposta": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "O operador UNION combina o resultado de duas ou mais consultas em uma única tabela de resultados? (Verdadeiro/Falso)",
+      "respostaV": "CURRENT_DATE()",
+      "respostaF": "GET_DATE()"
+      
+  }
+  ,
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual função SQL é usada para arredondar um número decimal para o número inteiro mais próximo? a) ROUND() b) CEIL()",
+      "respostaV": "ROUND()",
+      "respostaF": "CEIL()"
+      
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual cláusula SQL é usada para filtrar resultados de uma consulta? a) ORDER BY b) WHERE",
+      "respostaF": "ORDER BY",
+      "respostaV": "WHERE"
+      
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": "Qual junção inclui todas as linhas da tabela à esquerda e apenas as linhas correspondentes da tabela à direita?",
+      "resposta": "OUTER JOIN LEFT"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Na segunda forma normal (2FN), todos os atributos não-chave devem depender totalmente da chave primária.",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Qual declaração SQL combina cada linha de uma tabela com todas as linhas de outra tabela, sem nenhuma condição de junção?",
+      "respostaV": "CROSS JOIN",
+      "respostaF": "WHERE"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "A primeira forma normal (1FN) não permite valores múltiplos ou repetidos em cada célula da tabela.",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": "Se uma tabela permite valores múltiplos em suas células, em qual forma normal ela precisa ser reestruturada?",
+      "resposta": "Forma Normal 1 (1FN)"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": "Qual o comando para se pegar informações do banco de dados?",
+      "resposta": "Forma Normal 1 (1FN)"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "direta",
+      "pergunta": "Se uma tabela possui dependências parciais em relação à chave primária, em qual forma normal ela precisa ser reestruturada?",
+      "resposta": "Forma Normal 2 (2FN)"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "O operador WHERE é usado para filtrar linhas com base em uma condição específica em consultas SQL, não apenas para realizar junções entre tabelas.",
+      "respostaV": "FALSO",
+      "respostaF": "VERDADEIRO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "O INNER JOIN retorna todas as linhas de ambas as tabelas que têm correspondência, com base na condição de junção especificada.",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+      "id": "",
+      "tema": "BD",
+      "tipo": "alternativa",
+      "pergunta": "Um CROSS JOIN combina cada linha de uma tabela com todas as linhas de outra tabela, resultando em um produto cartesiano.",
+      "respostaV": "VERDADEIRO",
+      "respostaF": "FALSO"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Em Design Pattern Criacional, qual padrão que diz sobre uma fábrica de criar objetos?",
+    "resposta": "Factory Method"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual categoria de Design Pattern lida com a composição de classes ou objetos?",
+    "respostaF": "Criacional",
+    "respostaV": "Estrutural"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "No padrão estrutural, o bridge permite dividir uma classe em duas hierarquias, abstração e implementação",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual categoria de design pattern fornece maneiras de converter a interface de uma classe em outra interface que o cliente espera?",
+    "resposta": "Estrutural"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Design Patterns ajudam a reduzir o acoplamento entre classes",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Pode ser considerado um Framework",
+    "respostaV": "Falso",
+    "respostaF": "Verdadeiro"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Sobre o Design Pattern Estrutural, qual o padrão que permite objetos com interfaces incompatíveis trabalharem juntos?",
+    "resposta": "Adapter"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual categoria de Design Pattern fornece maneiras de estruturar classes de forma mais flexível?",
+    "resposta": "Estrutural"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual categoria de Design Pattern fornece maneiras de criar objetos sem especificar explicitamente suas classes",
+    "respostaV": "Criacional",
+    "respostaF": "Estrutural"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual padrão do Design Pattern Criacional, garante que uma classe tenha apenas uma instância?",
+    "resposta": "Singleton"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Monitorar desempenho e compreender melhor os dados, são as razões pelo qual realizamos a geração de relatório",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Service é utilizado para indicar que uma classe é um serviço da aplicação",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Na programação, Path é uma Interface em Java que representa o caminho de um arquivo ou diretório no sistema de arquivos",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "No meio educacional, a geração de relatório geralmente é usada em:",
+    "respostaV": "Histórico Escolar",
+    "respostaF": "Provas Semestrais"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "O pacote Service contém regras para:",
+    "respostaV": "Utilização de Serviços",
+    "respostaF": "Acesso a Recursos"
+  },
+  {
+    "id":"",
+    "tema":"PWBE",
+    "tipo":"direta",
+    "pergunta":"Quais ferramentas facilitam a vida do programador, trazendo a ideia de reusabilidade do código?",
+    "resposta":"FRAMEWORK"
+  },
+  {
+    "id":"",
+    "tema":"PWBE",
+    "tipo":"direta",
+    "pergunta":"Qual é o framework que atua como uma camada intermediaria entre a aplicação em Java e o Banco de Dados Relacional?",
+    "resposta":"HIBERNATE"
+  },
+  {
+    "id":"",
+    "tema":"PWBE",
+    "tipo":"direta",
+    "pergunta":"O que significa 'ORM'?",
+    "resposta":"OBJECT- RELATIONAL MAPPING"
+  },
+  {
+    "id":"",
+    "tema":"PWBE",
+    "tipo":"alternativa",
+    "pergunta":"Qual é o framework que atua como uma camada intermediaria entre a aplicação em Java e o Banco de Dados Relacional?",
+    "respostaV":"Consultas JPQL",
+    "respostaF":"Desempenho (para consultas complexas)"
+  },
+  {
+    "id":"",
+    "tema":"PWBE",
+    "tipo":"direta",
+    "pergunta":"Qual é a tecnologia fundamental do ecossistema Java que possibilita a interação de aplicativos Java com o banco de dados?",
+    "resposta":"JDBC"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual o package que abriga as regras de negocio de uma aplicação?",
+    "resposta": "MODEL"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "O que é Maven?",
+    "resposta": "Gerenciador de  dependencias"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Um end-point pode ser acessado utlizando qual protocolo?",
+    "resposta": "HTTP"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual a notação que utilizamos em spring para configurar uma coluna da base de dados pela classa em java?",
+    "resposta": "@Column()"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Oque precisamos criar para nossa aplicação spring ser acessada/vista por outras aplicações?",
+    "resposta": "End-Point"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual o nome da politica de segurança que precisamos configurar para conseguirmos acessar nossa aplicação spring em uma pagina web",
+    "respostaV": "CORS",
+    "respostaF": "SECURITY"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Para indicar que um atributo de uma classe será auto increment na base de dados, em spring utilizamos uma notação(@), qual das notações abaixo está correta?",
+    "respostaV": "@GeneratedValue()",
+    "respostaF": "@AUTO_INCREMENT()"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "como declaramos que uma classe do java irá se relacionar com uma tabela em java?",
+    "respostaV": "@Entity",
+    "respostaF": "@Table"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Uma aplicação Spring trabalha em qual lado?",
+    "respostaV": "Servidor",
+    "respostaF": "Cliente"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Ao fazermos um query SQL no Spring, Qual CAMADA fica responsavel por essa consulta?",
+    "respostaV": "ORM",
+    "respostaF": "JPQL"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual modificador torna o membro acessível às classes do mesmo pacote ou através de herança?",
+    "resposta": "Protected"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual a principal classe em um padrão MVC?",
+    "resposta": "Main"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual a camada é responsavel por exibir dados ao usuário?",
+    "resposta": "View"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual camada fica as regras de negócio?",
+    "resposta": "Model"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "O que significa V em MVC?",
+    "resposta": "View"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Toda classe começa com a primeira letra maiúscula?",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "o que significa MVC?",
+    "respostaV": "Model-View-Controller",
+    "respostaF": "Model-Visible-Controller"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual camada recebe as interações com o usuário?",
+    "respostaV": "Controller",
+    "respostaF": "Model"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Quais são as palavras reservadas que definem a visibilidade?",
+    "respostaV": "public, private e default",
+    "respostaF": "public, private e protected"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Em java, o que utilizamos para organizar as camadas do mvc?",
+    "respostaV": "Class",
+    "respostaF": "Package"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é a estrutura principal utilizada para organizar dados em um modelo de dados relacional?",
+    "resposta": "Tabelas"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é a função das chaves estrangeiras em um banco de dados relacional?",
+    "resposta": "Estabelecer relações entre tabelas."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "O que é banco de dados em memória?",
+    "resposta": "Armazenamento e manipulação na memória."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Vantagens de banco de dados em memória?",
+    "resposta": "Rápido, alta performance, escalável."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Principais componentes de modelo de dados?",
+    "resposta": "Entidades, atributos, relacionamentos."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Objetivos da modelagem de dados?",
+    "respostaV": " Identificar entidades, atributos e relacionamentos.",
+    "respostaF": "Produzir relatórios de análise de dados."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Importância da modelagem de dados nos sistemas de banco de dados?",
+    "respostaV": "Garantir integridade e facilitar manutenção e desenvolvimento.",
+    "respostaF": "Para criar interfaces de usuário amigáveis."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Característica comum de um banco de dados em memória?",
+    "respostaV": "Armazenamento de dados na memória principal.",
+    "respostaF": "Armazenamento de dados em disco."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Por que os bancos de dados em memória são preferidos em aplicações que exigem alta velocidade de processamento?",
+    "respostaV": "Rápido acesso aos dados na memória principal.",
+    "respostaF": "Devido ao baixo consumo de recursos de memória."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Exemplo de sistema de gerenciamento de banco de dados relacional (RDBMS)?",
+    "respostaV": "MySQL.",
+    "respostaF": "MongoDB."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "O que significa JPA?",
+    "resposta": "Java Persistence API"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual tipo de Banco de dados JPA interage?",
+    "resposta": "Relacional"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual o nome do arquivo de configuração do JPA?",
+    "resposta": "persistence.xml"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "O que é Hibernate?",
+    "resposta": "FrameWork"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual o nome do arquivo de configuração do Hibernate?",
+    "resposta": "pom.xml"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Hibernate permite a interação entre aplicações Java e bancos de dados.",
+    "respostaV": "Verdadeiro",
+    "respostaF": "Falso"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Hibernate não permite trabalhar com objetos em vez de consultas SQL.",
+    "respostaV": "Falso",
+    "respostaF": "Verdadeiro"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Hibernate torna o desenvolvimento mais propenso a erros.",
+    "respostaV": "Falso",
+    "respostaF": "Verdadeiro"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual das opções abaixo mapeia essa expressão: public class Pessoa {}",
+    "respostaV": "@Entity",
+    "respostaF": "@Column"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual das opções abaixo mapeia essa expressão: private Integer numeroMatricula;",
+    "respostaV": "@Id",
+    "respostaF": "@Table"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual protocolo é comumente associado ao SOAP?",
+    "resposta": "XML"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é o método principal utilizado em serviços web RESTful para recuperar dados?",
+    "resposta": "GET"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual operação HTTP é usada para recuperar dados em Web Services RESTful?",
+    "resposta": "JSON"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual operação HTTP é usada para recuperar dados em Web Services RESTful?",
+    "resposta": "GET"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual padrão é utilizado para definir a estrutura e operações de um serviço Web?",
+    "resposta": "WSDL"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Que padrão é utilizado para definir a estrutura e operações de um serviço Web?",
+    "respostaV": "WSDL",
+    "respostaF": "HTTP"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual protocolo é mais pesado em comparação com o outro em termos de tamanho de mensagem?",
+    "respostaV": "SOAP",
+    "respostaF": "REST"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual abordagem é mais flexível e amplamente utilizada para integração de serviços na web atualmente?",
+    "respostaV": "REST",
+    "respostaF": "SOAP"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Quais são os métodos principais utilizados em Web Services RESTful para operações CRUD (Create, Read, Update, Delete)?",
+    "respostaV": "GET, POST, PUT, DELETE",
+    "respostaF": "FETCH, INSERT, MODIFY, REMOVE"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual é o principal objetivo de um Web Service?",
+    "respostaV": "Permitir a comunicação entre diferentes aplicativos via internet",
+    "respostaF": "Armazenar dados localmente no servidor"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é o objetivo do método HTTP PUT em operações CRUD?",
+    "resposta": "Atualizar dados"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é a finalidade do operador 'Update' em CRUD?",
+    "resposta": "Modificar dados existentes"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Qual é a finalidade do operador 'Read' em CRUD?",
+    "resposta": "Recupera informações específicas do banco de dados."
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Explique em uma palavra o que é chave primária e chave estrangeira?",
+    "resposta": "Identifica e relaciona"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "direta",
+    "pergunta": "Quais são os principais métodos HTTP usados em operações CRUD RESTful?",
+    "resposta": "GET, POST, PUT, DELETE"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "No CRUD, o operador 'Read' é usado para adicionar novos registros ao banco de dados?",
+    "respostaV": "Falso",
+    "respostaF": "Verdadeiro"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual operação CRUD é usada para adicionar novos registros a um banco de dados?",
+    "respostaV": "Create",
+    "respostaF": "Update"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual é a finalidade do método HTTP POST em operações CRUD?",
+    "respostaV": "Criar novos dados",
+    "respostaF": "Atualizar dados"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": " Qual operação CRUD é usada para recuperar informações específicas de um banco de dados?",
+    "respostaV": " Read",
+    "respostaF": " Update"
+  },
+  {
+    "id": "",
+    "tema": "PWBE",
+    "tipo": "alternativa",
+    "pergunta": "Qual é a finalidade do método HTTP DELETE em operações CRUD?",
+    "respostaV": "Remover dados",
+    "respostaF": "Ler dados"
+  },
+  {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Um objeto é uma instância de uma classe.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Todos os objetos Java são passados por referência.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Um objeto pode existir sem uma classe correspondente.",
+    "respostaV" : "FALSO",
+    "respostaF" : "VERDADEIRO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "É possível criar um objeto de uma interface em Java.",
+    "respostaV" : "FALSO",
+    "respostaF" : "VERDADEIRO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Um objeto pode chamar métodos estáticos de sua classe.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Uma interface pode conter métodos com implementações padrão.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Uma classe pode implementar várias interfaces em Java.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Todos os métodos em uma interface são implicitamente públicos e abstratos.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Uma interface podem ter atributos de instancias.",
+    "respostaV" : "FALSO",
+    "respostaF" : "VERDADEIRO"
+    },
+    {
+      "id" : "",
+      "tema": "FPOO",
+      "tipo": "alternativa",
+      "pergunta" : "Uma classe abstrata pode implementar uma interface em Java.",
+      "respostaV" : "VERDADEIRO",
+      "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Polimorfismo em Java permite que um objeto de uma classe filha seja tratado como um objeto da classe pai.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Polimorfismo estático é resolvido em tempo de compilação.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "A sobrescrita de métodos está relacionada ao polimorfismo.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "Um objeto pode ter múltiplos tipos em Java.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+    "id" : "",
+    "tema": "FPOO",
+    "tipo": "alternativa",
+    "pergunta" : "O polimorfismo de inclusão está relacionado à herança.",
+    "respostaV" : "VERDADEIRO",
+    "respostaF" : "FALSO"
+    },
+    {
+      "id": "",
+      "tema": "FPOO",
+      "tipo": "alternativa",
+      "pergunta": "alternativa em Java são classes especiais que representam um grupo fixo de constantes.",
+      "respostaV": "Verdadeiro. alternativa em Java são classes especiais que representam um grupo fixo de constantes.",
+      "respostaF": "Falso"
+    },
+    {
+      "id": "",
+      "tema": "FPOO",
+      "tipo": "alternativa",
+      "pergunta": "Cada constante em uma enumeração em Java é uma instância da própria enumeração.",
+      "respostaV": "Verdadeiro. Cada constante em uma enumeração em Java é uma instância da própria enumeração.",
+      "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "É possível estender uma enumeração em Java.",
+        "respostaV": "Falso. alternativa em Java são implicitamente finais, não podem ser estendidas.",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Métodos estáticos podem ser definidos em enumerações em Java.",
+        "respostaV": "Verdadeiro. Métodos estáticos podem ser definidos em enumerações em Java.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma enumeração em Java pode ter atributos e métodos.",
+        "respostaV": "Verdadeiro. Uma enumeração em Java pode ter atributos e métodos além das constantes.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Na agregação, a vida do objeto dependente não é afetada pela vida do objeto principal.",
+        "respostaV": "Verdadeiro",
+        "respostaF": "Falso. Na agregação, a vida do objeto dependente é afetada pela vida do objeto principal."
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Na composição, a vida do objeto dependente não é afetada pela vida do objeto principal.",
+        "respostaV": "Falso. Na composição, a vida do objeto dependente é diretamente vinculada à vida do objeto principal.",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um relacionamento de composição é mais fraco que um relacionamento de agregação.",
+        "respostaV": "Falso. Um relacionamento de composição é mais forte e mais rígido do que um relacionamento de agregação.",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Polimorfismo em Java permite que um objeto de uma classe filha seja tratado como um objeto da classe pai.",
+        "respostaV": "Verdadeiro. O polimorfismo em Java permite que um objeto de uma classe filha seja tratado como um objeto da classe pai.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Herança é um tipo de relacionamento entre objetos.",
+        "respostaV": "Verdadeiro. Herança é um tipo de relacionamento entre classes, onde uma classe herda características de outra classe.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "PROJETO",
+        "tipo": "alternativa",
+        "pergunta": "O controle de versão é importante para rastrear as mudanças em um projeto de software ao longo do tempo.",
+        "respostaV": "Verdadeiro. O controle de versão é fundamental para rastrear alterações em um projeto de software e manter um histórico de versões.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "PROJETO",
+        "tipo": "alternativa",
+        "pergunta": "O Git é uma ferramenta popular de controle de versão distribuído.",
+        "respostaV": "Verdadeiro. Git é uma ferramenta de controle de versão distribuído amplamente utilizada.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "PROJETO",
+        "tipo": "alternativa",
+        "pergunta": "Um repositório remoto é uma cópia do repositório local.",
+        "respostaV": "Falso. Um repositório remoto é uma cópia do repositório que está hospedada em um servidor remoto.",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "PROJETO",
+        "tipo": "alternativa",
+        "pergunta": "Ramificações (branches) no Git são usadas para isolar o trabalho em progresso do resto do projeto.",
+        "respostaV": "Verdadeiro. Ramificações no Git são usadas para isolar o trabalho em progresso do resto do projeto, permitindo desenvolver funcionalidades ou corrigir bugs sem interferir no código principal. GitHub é uma plataforma popular para hospedar repositórios Git e colaboração em projetos de código aberto.",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma classe pode herdar atributos e métodos privados de sua superclasse.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Em Java, uma classe pode herdar de várias outras classes.",
+        "repostaV": "Falso",
+        "repostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma subclasse pode acessar os membros privados de sua superclasse.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma classe abstrata pode ser instanciada diretamente",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma subclasse pode sobrescrever um método final de sua superclasse.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Na agregação, o objeto principal não é responsável pela criação ou destruição do objeto dependente.",
+        "repostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+      "id": "",
+      "tema": "FPOO",
+      "tipo": "alternativa",
+      "pergunta": "A agregação é uma forma mais forte de relacionamento entre objetos do que a composição",
+      "repostaV": "Falso",
+      "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Em uma agregação, o objeto dependente pode existir independentemente do objeto principal.",
+        "repostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Em uma agregação, o ciclo de vida do objeto dependente está diretamente ligado ao ciclo de vida do objeto principal.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Na composição, o objeto dependente pode existir independentemente do objeto principal.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "A composição é uma forma mais fraca de relacionamento entre objetos do que a agregação.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Em uma composição, o objeto dependente é responsável por sua própria criação e destruição.",
+        "repostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Na composição, o ciclo de vida do objeto dependente está diretamente ligado ao ciclo de vida do objeto principal.",
+        "repostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Todos os atributos de uma classe em Java são privados por padrão.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Uma classe pode herdar de várias outras classes em Java.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um método estático pode acessar membros não estáticos de uma classe.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um método abstrato não pode ter implementação.",
+        "respostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um método final pode ser sobrescrito em uma subclasse.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Métodos sobrecarregados têm o mesmo nome e assinatura, mas podem ter tipos de retorno diferentes.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um método privado de uma superclasse pode ser acessado diretamente em uma subclasse.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um atributo declarado como 'protected' pode ser acessado por qualquer classe no mesmo pacote.",
+        "respostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um método privado pode ser acessado por qualquer classe no mesmo pacote.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "Um atributo declarado como 'public' não pode ser acessado por classes de outro pacote.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "O modificador 'default' (sem especificar nenhum modificador) de uma classe acessível apenas dentro do mesmo pacote.",
+        "respostaV": "Verdadeiro",
+        "respostaF": "Falso"
+    },
+    {
+        "id": "",
+        "tema": "FPOO",
+        "tipo": "alternativa",
+        "pergunta": "A palavra-chave 'private' permite que um atributo seja acessado por qualquer classe em qualquer pacote.",
+        "respostaV": "Falso",
+        "respostaF": "Verdadeiro"
     }
   ]
 }

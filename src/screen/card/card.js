@@ -11,6 +11,9 @@ import * as Animatable from 'react-native-animatable';
 import api from '../../service/index.js';
 
 export default function Card() {
+    const [primeiraResposta, setPrimeiraResposta] = useState('');
+    const [segundaResposta, setSegundaResposta] = useState('');
+
     const [isPlaying, setIsPlaying] = useState(false);
     const [isMuted, setIsMuted] = useState(false);
     const [sound, setSound] = useState();
@@ -124,9 +127,10 @@ export default function Card() {
     function random() {
         index = getNextNumber();
         const res = listQuestions[index];
-        addItem(res.id, res.pergunta);
         
         if (res !== undefined) {
+            addItem(res.id, res.pergunta);
+
             setId(res.id);
             setTheme(res.tema);
             setTipo(res.tipo);
@@ -140,10 +144,19 @@ export default function Card() {
                 setResponse("");
                 setResponseV(res.respostaV);
                 setResponseF(res.respostaF);
+
+                const respostas = [res.respostaV, res.respostaF];
+                const primeira = respostas[Math.floor(Math.random() * respostas.length)];
+                const segunda = respostas.find(resp => resp !== primeira);
+                setPrimeiraResposta(primeira);
+                setSegundaResposta(segunda);
             }
             
             setVisible(true);
-            playAudio();
+            setTimeout(() => {
+                playAudio();
+            }, 5000);
+            
         }
     }
 
@@ -252,8 +265,9 @@ export default function Card() {
                                 ) : (
                                     <View style={styles.contentBodyResponse}>
                                         <Text style={styles.bodyResponse}>
-                                            <Text style={styles.textV}>{responseV}</Text>{'\n'}{'\n'}
-                                            <Text style={styles.textF}>{responseF}</Text>
+                                            <Text style={styles.textF}>{primeiraResposta}</Text>{'\n'}{'\n'}
+                                            <Text style={styles.textF}>{segundaResposta}</Text>{'\n'}{'\n'}
+                                            <Text style={styles.textV}>{responseV}</Text>
                                         </Text>
                                     </View>
                                 )
